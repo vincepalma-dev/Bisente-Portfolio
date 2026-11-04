@@ -69,9 +69,12 @@ const year = (d: Date) => d.getUTCFullYear();
   <main id="main">
     <!-- Hero -->
     <header class="hero container">
-      <div class="hero-text">
+      <div class="hero-head">
         <h1 class="hero-title">Mark Vincent Palma</h1>
-        <p class="hero-role">Full-Stack Engineer <span aria-hidden="true">·</span> Las Piñas, PH</p>
+        <p class="hero-role"><span class="nowrap">Full-Stack Engineer</span> <span aria-hidden="true">·</span> <span class="nowrap">Las Piñas, PH</span></p>
+      </div>
+
+      <div class="hero-body">
         <p class="hero-tagline">I build secure, reliable web systems for businesses.</p>
         <p class="hero-lede">
           Software Development Associate at AAA and Co., CPAs. Magna Cum Laude in Information Systems, 2026.
@@ -346,12 +349,32 @@ const year = (d: Date) => d.getUTCFullYear();
 }
 
 /* ---------- Hero ---------- */
+/* The photo stays beside the name at every width. On phones only the
+   name and role share its row; the rest of the hero goes full width. */
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: var(--space-6) var(--space-7);
-  align-items: center;
+  grid-template-areas:
+    "head  photo"
+    "body  photo"
+    "stats stats";
+  column-gap: var(--space-7);
   padding-top: var(--space-6);
+}
+
+.hero-head {
+  grid-area: head;
+  align-self: end;
+}
+
+.hero-body {
+  grid-area: body;
+}
+
+.hero-portrait {
+  grid-area: photo;
+  align-self: start; /* pinned to the name, not centred on the whole text block */
+  margin-top: var(--space-5);
 }
 
 .hero-title {
@@ -368,6 +391,10 @@ const year = (d: Date) => d.getUTCFullYear();
   font-size: clamp(1.2rem, 2.2vw, 1.6rem);
   font-weight: 700;
   letter-spacing: -0.01em;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .hero-tagline {
@@ -428,10 +455,10 @@ const year = (d: Date) => d.getUTCFullYear();
 }
 
 .hero-stats {
-  grid-column: 1 / -1;
+  grid-area: stats;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin: var(--space-4) 0 0;
+  margin: var(--space-6) 0 0;
   border-top: 1px solid var(--border-strong);
 }
 
@@ -464,16 +491,26 @@ const year = (d: Date) => d.getUTCFullYear();
 
 @media (max-width: 760px) {
   .hero {
-    grid-template-columns: 1fr;
+    grid-template-areas:
+      "head  photo"
+      "body  body"
+      "stats stats";
+    column-gap: var(--space-4);
     padding-top: var(--space-2);
   }
 
+  .hero-head {
+    align-self: center;
+  }
+
   .hero-portrait {
-    grid-row: 1;
+    align-self: center;
+    margin-top: 0;
   }
 
   .hero-portrait img {
-    width: 112px;
+    width: clamp(76px, 24vw, 120px);
+    border-width: 4px;
   }
 
   .hero-stats {
