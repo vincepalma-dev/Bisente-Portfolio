@@ -94,6 +94,7 @@ def create_resume_docx(output_path):
     def two_sided(left_runs, right_text, italic=False, before=0):
         """Left content, then a right-aligned tab with right_text."""
         p = para(before=before)
+        p.paragraph_format.keep_with_next = True  # entry heading stays with its bullets
         p.paragraph_format.tab_stops.add_tab_stop(usable, WD_TAB_ALIGNMENT.RIGHT)
         left_runs(p)
         if right_text:
@@ -124,6 +125,7 @@ def create_resume_docx(output_path):
         r.bold = True
         r.font.size = Pt(10.5)
         rule_below(p)
+        p.paragraph_format.keep_with_next = True  # never leave a heading alone at a page bottom
 
         for line in section.get("lines", []):
             p = para()

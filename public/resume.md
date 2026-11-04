@@ -38,7 +38,7 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 ### Freelance Full-Stack Developer
 *Jan 2024 – Present*
 - Built Bubble Hideout's restaurant POS and inventory system, handling 50+ orders a day with receipts and sales exports.
-- Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week.
+- Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week; rebuilt it in 2026 on Node.js / Express with offline SQLite and thermal / dot-matrix print layouts.
 - Built Galaxent Perfume's attendance portal for up to 10 retail staff, replacing paper time sheets with calendar logs.
 
 ---
@@ -52,8 +52,9 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) | Sole Developer
 *2026* | *Vue 3, TypeScript, Django REST, PostgreSQL, Redis, Docker, GitHub Actions*
-- Built a multi-tenant payroll SaaS for 30+ staff: SSS, PhilHealth, Pag-IBIG, withholding tax and BIR 2316 certificates.
+- Built a multi-tenant payroll SaaS for 30+ employees: SSS, PhilHealth and Pag-IBIG deductions, withholding tax and BIR 2316 certificates.
 - Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright verify payroll math.
+- Set up multi-stage GitHub Actions CI with ephemeral PostgreSQL and Redis containers, so every change runs the full test suite.
 
 ### [Tax Leaders Circle PH](https://tlcph.online/) | Full-Stack Developer (Intern)
 *2026* | *Laravel, Vue.js, PHP, MySQL, PDF.js, FPDI / FPDF*
@@ -69,24 +70,25 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ## CERTIFICATIONS
 
-- **Cisco Networking Academy:** Junior Cybersecurity Analyst Career Path, Cyber Threat Management, Network Defense, Endpoint Security, Networking (3 courses), Python & JavaScript Essentials 1 & 2, Data Science & Analytics
+- **Cisco Networking Academy:** Junior Cybersecurity Analyst Career Path, Cyber Threat Management, Network Defense, Endpoint Security, Introduction to Cybersecurity, Network Support and Security, Networking Devices and Initial Configuration, Networking Basics, Data Science Essentials with Python, Data Analytics Essentials, Introduction to Data Science, AI Fundamentals, Python Essentials 1 & 2, JavaScript Essentials 1 & 2
 - **IBM SkillsBuild:** AI Fundamentals: Foundations for Understanding AI
+- **Seminars & Workshops:** DICT Region 2: How Technology Creates Opportunities for Filipinos; DICT Region 8: Cyber-Shield Tuesday; Packetworx & KadaKareer: IoT & LoRaWAN Workshop Series
 
 ---
 
 ## LEADERSHIP & ACTIVITIES
 
-### eGovPH National Hackathon 2026, DICT | Team Lead, "Println New Gen"
-*Jul 2026*
+### Team Lead, "Println New Gen"
+*Jul 2026* | *eGovPH National Hackathon 2026, DICT*
 - Led a 5-member team through a 48-hour civic-tech sprint at the national eGovPH Hackathon.
 - Built sign-in and identity verification flows on 3 government sandbox APIs: eGov SSO, eVerify and eGovPay.
 
-### Graphic Artist Society, DFCAMCLP | Auditor
-*2025 – 2026*
+### Auditor
+*2025 – 2026* | *Graphic Artist Society, DFCAMCLP*
 - Elected by members to audit the organization's funds, checking officers' expenses against receipts and budgets.
 - Kept the organization's equipment and supplies inventory accurate and accounted for.
 
-### Graphic Artist Society, DFCAMCLP | Level Representative
-*2023 – 2025*
+### Level Representative
+*2023 – 2025* | *Graphic Artist Society, DFCAMCLP*
 - Represented my year level to the organization's officers, bringing members' concerns and ideas to meetings.
 - Coordinated campus creative workshops for members.

@@ -89,7 +89,7 @@
           "right": "Jan 2024 – Present",
           "bullets": [
             "Built Bubble Hideout's restaurant POS and inventory system, handling 50+ orders a day with receipts and sales exports.",
-            "Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week.",
+            "Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week; rebuilt it in 2026 on Node.js / Express with offline SQLite and thermal / dot-matrix print layouts.",
             "Built Galaxent Perfume's attendance portal for up to 10 retail staff, replacing paper time sheets with calendar logs."
           ]
         }
@@ -118,8 +118,9 @@
           "subRight": "Live site",
           "url": "https://bizmaker-payroll.vercel.app/",
           "bullets": [
-            "Built a multi-tenant payroll SaaS for 30+ staff: SSS, PhilHealth, Pag-IBIG, withholding tax and BIR 2316 certificates.",
-            "Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright verify payroll math."
+            "Built a multi-tenant payroll SaaS for 30+ employees: SSS, PhilHealth and Pag-IBIG deductions, withholding tax and BIR 2316 certificates.",
+            "Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright verify payroll math.",
+            "Set up multi-stage GitHub Actions CI with ephemeral PostgreSQL and Redis containers, so every change runs the full test suite."
           ]
         },
         {
@@ -153,11 +154,15 @@
       "lines": [
         {
           "label": "Cisco Networking Academy",
-          "text": "Junior Cybersecurity Analyst Career Path, Cyber Threat Management, Network Defense, Endpoint Security, Networking (3 courses), Python & JavaScript Essentials 1 & 2, Data Science & Analytics"
+          "text": "Junior Cybersecurity Analyst Career Path, Cyber Threat Management, Network Defense, Endpoint Security, Introduction to Cybersecurity, Network Support and Security, Networking Devices and Initial Configuration, Networking Basics, Data Science Essentials with Python, Data Analytics Essentials, Introduction to Data Science, AI Fundamentals, Python Essentials 1 & 2, JavaScript Essentials 1 & 2"
         },
         {
           "label": "IBM SkillsBuild",
           "text": "AI Fundamentals: Foundations for Understanding AI"
+        },
+        {
+          "label": "Seminars & Workshops",
+          "text": "DICT Region 2: How Technology Creates Opportunities for Filipinos; DICT Region 8: Cyber-Shield Tuesday; Packetworx & KadaKareer: IoT & LoRaWAN Workshop Series"
         }
       ]
     },
@@ -165,27 +170,27 @@
       "title": "Leadership & Activities",
       "entries": [
         {
-          "heading": "eGovPH National Hackathon 2026, DICT",
-          "role": "Team Lead, \"Println New Gen\"",
+          "heading": "Team Lead, \"Println New Gen\"",
           "right": "Jul 2026",
+          "sub": "eGovPH National Hackathon 2026, DICT",
           "bullets": [
             "Led a 5-member team through a 48-hour civic-tech sprint at the national eGovPH Hackathon.",
             "Built sign-in and identity verification flows on 3 government sandbox APIs: eGov SSO, eVerify and eGovPay."
           ]
         },
         {
-          "heading": "Graphic Artist Society, DFCAMCLP",
-          "role": "Auditor",
+          "heading": "Auditor",
           "right": "2025 – 2026",
+          "sub": "Graphic Artist Society, DFCAMCLP",
           "bullets": [
             "Elected by members to audit the organization's funds, checking officers' expenses against receipts and budgets.",
             "Kept the organization's equipment and supplies inventory accurate and accounted for."
           ]
         },
         {
-          "heading": "Graphic Artist Society, DFCAMCLP",
-          "role": "Level Representative",
+          "heading": "Level Representative",
           "right": "2023 – 2025",
+          "sub": "Graphic Artist Society, DFCAMCLP",
           "bullets": [
             "Represented my year level to the organization's officers, bringing members' concerns and ideas to meetings.",
             "Coordinated campus creative workshops for members."
