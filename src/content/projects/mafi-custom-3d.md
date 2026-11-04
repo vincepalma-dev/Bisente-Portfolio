@@ -9,7 +9,7 @@ related: []
 outcome: "Led a year-long capstone turning a traditional garment manufacturer into an interactive web tailoring platform, letting customers visualize 3D clothing customizations directly in browser."
 logo: "/images/projects/mafi-fashion.png"
 links:
-  repo: "https://github.com/binssente-crypto/MAFI-Custom-3D"
+  repo: "https://github.com/vincepalma-dev/MAFI-Custom-3D"
 ---
 
 ### Overview

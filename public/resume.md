@@ -1,6 +1,6 @@
 # MARK REIZEL VINCENT C. PALMA
 Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com  
-[linkedin.com/in/mark-reizel-vincent-palma-903253297](https://www.linkedin.com/in/mark-reizel-vincent-palma-903253297/) | [github.com/binssente-crypto](https://github.com/binssente-crypto) | [markvincentpalma.vercel.app](https://markvincentpalma.vercel.app)
+[linkedin.com/in/mark-reizel-vincent-palma](https://www.linkedin.com/in/mark-reizel-vincent-palma/) | [github.com/vincepalma-dev](https://github.com/vincepalma-dev) | [markvincentpalma.vercel.app](https://markvincentpalma.vercel.app)
 
 ---
 
@@ -61,7 +61,7 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 - Co-built the learning portal for Philippine tax professionals with 1 other intern: courses, digital library and seminars.
 - Built the certificate generator (FPDI / FPDF), a PDF.js flip-book tax library and the seminar reservation admin.
 
-### [MAFI 3D Custom Clothing](https://github.com/binssente-crypto/MAFI-Custom-3D) | Lead Capstone Developer
+### [MAFI 3D Custom Clothing](https://github.com/vincepalma-dev/MAFI-Custom-3D) | Lead Capstone Developer
 *2025* | *PHP, MySQL, JavaScript, SVG, PHPMailer*
 - Led a 12-month capstone replacing a garment maker's hand sketches with a browser clothing customizer.
 - Turned each customer design into a production work order for the cutting floor, with order tracking and email updates.

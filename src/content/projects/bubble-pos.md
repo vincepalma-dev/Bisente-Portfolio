@@ -9,7 +9,7 @@ related: []
 outcome: "Built a custom restaurant POS and inventory tracker for Bubble Hideout in CAA Las Piñas with FPDF receipt printing and PhpSpreadsheet daily sales analytics."
 logo: "/images/projects/bubble-hideout.png"
 links:
-  repo: "https://github.com/binssente-crypto/Bubble"
+  repo: "https://github.com/vincepalma-dev/Bubble"
 ---
 
 ### Overview

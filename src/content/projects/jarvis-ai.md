@@ -8,7 +8,7 @@ skills: ["Python", "FastAPI", "AutoGen", "Vue.js", "TailwindCSS", "WebSockets", 
 related: []
 outcome: "Engineered an autonomous multi-agent platform using AutoGen, FastAPI, and Vue 3 to coordinate specialized AI agents with live WebSocket monitoring."
 links:
-  repo: "https://github.com/binssente-crypto/Jarvis.AI"
+  repo: "https://github.com/vincepalma-dev/Jarvis.AI"
 ---
 
 ### Overview

@@ -7,12 +7,12 @@
   ],
   "links": [
     {
-      "label": "linkedin.com/in/mark-reizel-vincent-palma-903253297",
-      "url": "https://www.linkedin.com/in/mark-reizel-vincent-palma-903253297/"
+      "label": "linkedin.com/in/mark-reizel-vincent-palma",
+      "url": "https://www.linkedin.com/in/mark-reizel-vincent-palma/"
     },
     {
-      "label": "github.com/binssente-crypto",
-      "url": "https://github.com/binssente-crypto"
+      "label": "github.com/vincepalma-dev",
+      "url": "https://github.com/vincepalma-dev"
     },
     {
       "label": "markvincentpalma.vercel.app",
@@ -141,7 +141,7 @@
           "right": "2025",
           "sub": "PHP, MySQL, JavaScript, SVG, PHPMailer",
           "subRight": "GitHub",
-          "url": "https://github.com/binssente-crypto/MAFI-Custom-3D",
+          "url": "https://github.com/vincepalma-dev/MAFI-Custom-3D",
           "bullets": [
             "Led a 12-month capstone replacing a garment maker's hand sketches with a browser clothing customizer.",
             "Turned each customer design into a production work order for the cutting floor, with order tracking and email updates."
