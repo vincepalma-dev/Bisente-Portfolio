@@ -362,6 +362,17 @@ const year = (d: Date) => d.getUTCFullYear();
   padding-top: var(--space-6);
 }
 
+/* Desktop: the hero fills the first screen so the dark band below never
+   peeks in as a half-faded strip. 61px = nav height + border. */
+@media (min-width: 1024px) and (min-height: 640px) {
+  .hero {
+    min-height: calc(100svh - 61px - var(--space-6));
+    align-content: center;
+    padding-top: 0;
+    padding-bottom: var(--space-6);
+  }
+}
+
 .hero-head {
   grid-area: head;
   align-self: end;
@@ -395,6 +406,14 @@ const year = (d: Date) => d.getUTCFullYear();
 
 .nowrap {
   white-space: nowrap;
+}
+
+/* Below 320px (tiny phones, heavy zoom) the head column is too narrow for
+   "Full-Stack Engineer" on one line, so let it wrap instead of overlapping the photo */
+@media (max-width: 319px) {
+  .nowrap {
+    white-space: normal;
+  }
 }
 
 .hero-tagline {
