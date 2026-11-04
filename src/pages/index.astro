@@ -578,11 +578,9 @@ const year = (d: Date) => d.getUTCFullYear();
 }
 
 .feature-body {
-  grid-column: 7 / -1;
+  grid-column: 8 / -1;
   grid-row: 1;
-  position: relative;
-  z-index: 1;
-  text-align: right;
+  padding-left: var(--space-6);
 }
 
 .feature-kicker {
@@ -618,13 +616,11 @@ const year = (d: Date) => d.getUTCFullYear();
   color: var(--stage-ink-2);
   font-size: var(--text-sm);
   line-height: 1.6;
-  text-align: left;
 }
 
 .feature-stack {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   gap: var(--space-1) var(--space-4);
   margin: 0 0 var(--space-5);
   padding: 0;
@@ -637,7 +633,6 @@ const year = (d: Date) => d.getUTCFullYear();
 .feature-actions {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   align-items: center;
   gap: var(--space-2) var(--space-5);
 }
@@ -667,21 +662,15 @@ const year = (d: Date) => d.getUTCFullYear();
   color: var(--stage-accent);
 }
 
-/* Every other project mirrors: screenshot right, text left. No overlap here:
-   landing pages put their headline top-left, which the card would cover. */
+/* Text sits beside the screenshot, never on it, so no headline gets covered.
+   Every other project mirrors: screenshot right, text left. */
 .feature-flip .feature-shot {
   grid-column: 6 / -1;
 }
 
 .feature-flip .feature-body {
   grid-column: 1 / 6;
-  padding-right: var(--space-6);
-  text-align: left;
-}
-
-.feature-flip .feature-stack,
-.feature-flip .feature-actions {
-  justify-content: flex-start;
+  padding: 0 var(--space-6) 0 0;
 }
 
 @media (max-width: 900px) {
@@ -695,12 +684,7 @@ const year = (d: Date) => d.getUTCFullYear();
   .feature .feature-body {
     grid-column: 1;
     grid-row: auto;
-    text-align: left;
-  }
-
-  .feature .feature-stack,
-  .feature .feature-actions {
-    justify-content: flex-start;
+    padding: 0;
   }
 
   .feature-desc {
