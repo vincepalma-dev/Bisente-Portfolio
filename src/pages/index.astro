@@ -667,13 +667,15 @@ const year = (d: Date) => d.getUTCFullYear();
   color: var(--stage-accent);
 }
 
-/* Every other project mirrors: screenshot right, text left */
+/* Every other project mirrors: screenshot right, text left. No overlap here:
+   landing pages put their headline top-left, which the card would cover. */
 .feature-flip .feature-shot {
   grid-column: 6 / -1;
 }
 
 .feature-flip .feature-body {
-  grid-column: 1 / 7;
+  grid-column: 1 / 6;
+  padding-right: var(--space-6);
   text-align: left;
 }
 
