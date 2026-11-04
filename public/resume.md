@@ -1,88 +1,88 @@
 # MARK REIZEL VINCENT C. PALMA
-**Full-Stack Software Engineer**  
-Las Piñas City, Metro Manila, Philippines | binssente@gmail.com | +63 915 805 7972  
-Portfolio: https://mrvcp-portfolio.vercel.app  
+Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com  
+[linkedin.com/in/mark-reizel-vincent-palma-903253297](https://www.linkedin.com/in/mark-reizel-vincent-palma-903253297/) | [github.com/binssente-crypto](https://github.com/binssente-crypto) | [mrvcp-portfolio.vercel.app](https://mrvcp-portfolio.vercel.app)
 
 ---
 
-## PROFESSIONAL SUMMARY
-Full-Stack Software Engineer and **Magna Cum Laude** Information Systems graduate with over two years of experience shipping production web apps, enterprise ERPs, and automated transaction platforms. Core focus in React, Next.js, Laravel, PHP, and PostgreSQL, backed by hands-on Cisco training in network defense and threat triage. Experienced in working closely with small engineering teams to build clean, dependable, and secure software.
+## EDUCATION
+
+### Dr. Filemon C. Aguilar Memorial College of Las Piñas
+*Las Piñas City, PH* | *Bachelor of Science in Information Systems, Magna Cum Laude* | 2022 – 2026
 
 ---
 
 ## TECHNICAL SKILLS
-- **Languages:** JavaScript (ES6+), TypeScript, PHP, Python, SQL, HTML5, CSS3
-- **Frontend:** React 19, Next.js, Vue 3, Vite, Tailwind CSS, Framer Motion, Bootstrap, Responsive UI/UX
-- **Backend & APIs:** Laravel 11, Django, FastAPI, Node.js, RESTful APIs, WebSockets (Socket.io), Sanctum, PHPMailer
-- **Databases & BaaS:** PostgreSQL, MySQL, Supabase, Redis, AWS S3, Prisma ORM, Query Optimization
-- **Cloud & Hosting:** Vercel, Render, Hostinger, Docker & Docker Compose, Linux, Nginx, CI/CD Actions, Git/GitHub
-- **Cybersecurity & Systems:** SOC Operations, Incident Response, Network Defense, Threat Intelligence (CVSS), Endpoint Hardening, Cisco IOS
-- **AI & Tools:** Claude, Google Gemini, CodeRabbit, Groq AI, Microsoft AutoGen
+
+- **Languages:** TypeScript, JavaScript, Python, PHP, SQL, HTML, CSS, Bash
+- **Frontend:** React 19, Next.js, Vue 3 (Pinia), Astro, Three.js / React Three Fiber, Tailwind CSS
+- **Backend & APIs:** Laravel 11, Django REST Framework, FastAPI, Node.js / Express, REST, WebSockets (Socket.io)
+- **Databases & DevOps:** PostgreSQL, Supabase, MySQL, Redis, SQLite, Prisma; Docker, GitHub Actions, Vercel, Render
+- **Testing & Security:** Pest / PHPUnit, Pytest, Vitest, Playwright, Postman / Newman; CodeQL, Gitleaks, Cisco network defense
 
 ---
 
-## PROFESSIONAL EXPERIENCE
+## EXPERIENCE
 
-### Software Development Associate | AAA and Co., CPAs
-*June 2026 – Present | Metro Manila, Philippines*
-- Architect and maintain the Gamma Oracle Project Management & Cost Control platform, streamlining internal audit workflows, financial reporting, and project cost tracking for accounting teams.
-- Implement atomic database transactions and strict access controls to prevent data discrepancy across multi-tiered corporate ledger allocations.
-- Collaborate with certified accountants and senior partners to translate complex statutory compliance requirements into automated operational dashboards.
+### AAA and Co., CPAs | Software Development Associate
+*Jun 2026 – Present*
+- Lead development of Gamma Oracle PM, a cost-control platform for project budgets, contractor payments and audit trails.
+- Automated 1% / 2% expanded withholding, 12% VAT, 10% CIAP 102 retention and 15% mobilization recoupment.
+- Enforced role-based permissions, JWT authentication, rate limiting and atomic transactions across ledger allocations.
 
-### Software Engineering Intern | Gamma Oracle Dimension Inc.
-*February 2026 – June 2026 | Metro Manila, Philippines*
-- Co-developed the official educational web portal for **Tax Leaders Circle PH (TLCPH.online)** alongside a fellow developer intern, servicing accredited accounting seminars nationwide.
-- Engineered an automated certificate generator using FPDI/FPDF and a digital tax publication reader using PDF.js and Turn.js with realistic flip-book navigation.
-- Solo developed **BizMaker HRIS ERP** from the ground up, transitioning payroll workflows into a scalable cloud SaaS application with automated tax calculations and timesheet synchronization.
+### Gamma Oracle Dimension Inc. | Software Engineering Intern
+*Feb 2026 – Jun 2026*
+- Built [BizMaker HRIS ERP](https://bizmaker-payroll.vercel.app/) alone: payroll SaaS paying 30+ employees with BIR, SSS, PhilHealth and Pag-IBIG.
+- Synced ZKTeco biometric attendance; CI runs Pytest, Vitest and Playwright against ephemeral PostgreSQL and Redis.
+- Co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months: certificate generator, PDF.js library, seminar admin.
 
-### Freelance Full-Stack Developer | Independent Contractor
-*January 2024 – Present | Las Piñas City, Philippines*
-- **Michael Anthony's Fashion Inc. (MAFI):** Automated manual paper invoices and Delivery Receipts (DR) into structured digital records, cutting invoicing errors and administrative overhead.
-- **Galaxent Perfume:** Designed and deployed an attendance logging and payroll calculation portal for retail personnel, reducing manual bi-weekly time reconciliation.
-- **Bubble Hideout POS:** Engineered a standalone restaurant point-of-sale and live inventory management system in PHP/MySQL, eliminating dinner-rush order latency and automating daily cash-out reports.
-- **STI OMMA Platform:** Built a production-ready community showcase portal for STI College multimedia artists featuring AWS S3 media uploads, Xendit payment gateways, and real-time chat.
-
----
-
-## KEY PROJECTS & HACKATHONS
-
-### eGovPH National Hackathon 2026 — Team Lead / Developer
-*Department of Information and Communications Technology (DICT) | July 2026 | SMX Aura, BGC*
-- Led 5-member team **"Println New Gen"** in a 48-hour civic-tech sprint developing verification prototypes atop official government infrastructure (eGov Single Sign-On, eVerify, and eGovPay APIs).
-- Designed client-facing authentication flows and interfaced live with sandbox government identity verification endpoints.
-
-### MAFI 3D Custom Clothing Platform — Capstone Project Lead Developer
-*Michael Anthony's Fashion Inc. / DFCAMCLP | 2025 | Las Piñas City*
-- Led a year-long capstone converting a traditional garment manufacturer's manual sketching bottleneck into a browser-based 3D visual tailoring customizer.
-- Allowed real-time collar, fabric, and trim configurations that generate production-ready specifications directly for pattern cutters.
-
-### CND Upraze — Lead Full-Stack Architect and Developer
-*Technopreneurship | 2026 | Academic Project*
-- Architected an enterprise SaaS application uniting a React 19 frontend and a decoupled Laravel 11 protocol core, packaged in Docker for isolated local and staging environments.
-- Integrated Groq AI for automated inference and telemetry visualization dashboards for administrative order governance.
+### Freelance Full-Stack Developer
+*Jan 2024 – Present*
+- Built Bubble Hideout's restaurant POS and inventory system, handling 50+ orders a day with receipts and sales exports.
+- Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week.
+- Built Galaxent Perfume's attendance portal for up to 10 retail staff, replacing paper time sheets with calendar logs.
 
 ---
 
-## EDUCATION & LEADERSHIP
+## PROJECTS
 
-### Bachelor of Science in Information Systems (BSIS)
-**Dr. Filemon C. Aguilar Memorial College of Las Piñas (DFCAMCLP)** | *2022 – 2026*  
-**Honors:** Magna Cum Laude  
-- **Graphic Artist Society:** Elected Auditor (2025 – 2026); served as Level Representative (2023 – 2025), coordinating campus creative workshops and managing organizational inventory.
+### [STI OMMA Platform](https://omma-art.vercel.app/) | Full-Stack Engineer
+*2026* | *Next.js, TypeScript, PostgreSQL (Prisma), Supabase Storage, Redis, Socket.io, Xendit*
+- Built an art-commission marketplace for STI artists with Xendit escrow, a 10% fee with payout splits and live chat.
+- Designed a 20-model PostgreSQL schema and 91 API routes, covered by 110 test files; passed all 36 alpha test cases.
 
-### High School Diploma — TVL-ICT Track
-**De La Salle Santiago Zobel School – BRafeNHS** | *2016 – 2022*  
-- Senior High School Technical-Vocational-Livelihood (TVL-ICT Track, 2020–2022) • Junior High School (2016–2020).
+### [CND Upraze](https://github.com/binssente-crypto/CND-Upraze) | Lead Full-Stack Developer
+*2026* | *React 19, Laravel 11, PostgreSQL, Redis, Docker, GitHub Actions, Three.js, Groq AI*
+- Built a services and e-commerce SaaS alone: 35 REST endpoints, 14 migrations, Laravel 11 API, React 19 front end.
+- Enforced an 80% minimum test-coverage gate and automated Docker deployment in GitHub Actions.
+
+### [MAFI 3D Custom Clothing](https://github.com/binssente-crypto/MAFI-Custom-3D) | Lead Capstone Developer
+*2025* | *PHP, MySQL, JavaScript, SVG, PHPMailer*
+- Led a 12-month capstone replacing a garment maker's hand sketches with a browser clothing customizer.
+- Turned each customer design into a production work order for the cutting floor, with order tracking and email updates.
 
 ---
 
-## CERTIFICATIONS & ACCREDITATIONS
-- **Junior Cybersecurity Analyst Career Path** — Cisco Networking Academy (2026)
-- **Cyber Threat Management** — Cisco Networking Academy (2026)
-- **Network Defense** — Cisco Networking Academy (2026)
-- **Endpoint Security & Introduction to Cybersecurity** — Cisco Networking Academy (2026)
-- **Networking Devices & Configuration • Network Support** — Cisco Networking Academy (2026)
-- **AI Fundamentals: Foundations for Understanding AI** — IBM SkillsBuild & Cisco (2026)
-- **Data Science Essentials with Python • Data Analytics Essentials** — Cisco (2026)
-- **Python Essentials (1 & 2) • JavaScript Essentials (1 & 2)** — Cisco & OpenEDG (2026)
-- **Intellectual Property Rights for Freelancers** — DICT Region 2 (2026) • **Cyber-Shield** — DICT Region 8 (2026)
+## CERTIFICATIONS
+
+- **Cisco Networking Academy:** Junior Cybersecurity Analyst Career Path, Cyber Threat Management, Network Defense, Endpoint Security, Networking (3 courses), Python & JavaScript Essentials 1 & 2, Data Science & Analytics
+- **IBM SkillsBuild:** AI Fundamentals: Foundations for Understanding AI
+
+---
+
+## LEADERSHIP & ACTIVITIES
+
+### Team Lead, "Println New Gen"
+*Jul 2026* | *eGovPH National Hackathon 2026, DICT* | SMX Aura, BGC
+- Led a 5-member team through a 48-hour civic-tech sprint at the national eGovPH Hackathon.
+- Built sign-in and identity verification flows on 3 government sandbox APIs: eGov SSO, eVerify and eGovPay.
+
+### Auditor; Level Representative
+*2023 – 2026* | *Graphic Artist Society, DFCAMCLP* | Las Piñas City, PH
+- Elected Auditor (2025 – 2026): audited the organization's funds and managed its inventory.
+- As Level Representative (2023 – 2025), coordinated campus creative workshops.
+
+---
+
+## ADDITIONAL INFORMATION
+
+- **Languages:** English, Filipino

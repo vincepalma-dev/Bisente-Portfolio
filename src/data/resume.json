@@ -1,0 +1,182 @@
+{
+  "name": "MARK REIZEL VINCENT C. PALMA",
+  "contact": [
+    "Las Piñas City, Philippines",
+    "+63 915 805 7972",
+    "markvincentpalma01@gmail.com"
+  ],
+  "links": [
+    {
+      "label": "linkedin.com/in/mark-reizel-vincent-palma-903253297",
+      "url": "https://www.linkedin.com/in/mark-reizel-vincent-palma-903253297/"
+    },
+    {
+      "label": "github.com/binssente-crypto",
+      "url": "https://github.com/binssente-crypto"
+    },
+    {
+      "label": "mrvcp-portfolio.vercel.app",
+      "url": "https://mrvcp-portfolio.vercel.app"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Education",
+      "entries": [
+        {
+          "heading": "Dr. Filemon C. Aguilar Memorial College of Las Piñas",
+          "right": "Las Piñas City, PH",
+          "sub": "Bachelor of Science in Information Systems, Magna Cum Laude",
+          "subRight": "2022 – 2026"
+        }
+      ]
+    },
+    {
+      "title": "Technical Skills",
+      "lines": [
+        {
+          "label": "Languages",
+          "text": "TypeScript, JavaScript, Python, PHP, SQL, HTML, CSS, Bash"
+        },
+        {
+          "label": "Frontend",
+          "text": "React 19, Next.js, Vue 3 (Pinia), Astro, Three.js / React Three Fiber, Tailwind CSS"
+        },
+        {
+          "label": "Backend & APIs",
+          "text": "Laravel 11, Django REST Framework, FastAPI, Node.js / Express, REST, WebSockets (Socket.io)"
+        },
+        {
+          "label": "Databases & DevOps",
+          "text": "PostgreSQL, Supabase, MySQL, Redis, SQLite, Prisma; Docker, GitHub Actions, Vercel, Render"
+        },
+        {
+          "label": "Testing & Security",
+          "text": "Pest / PHPUnit, Pytest, Vitest, Playwright, Postman / Newman; CodeQL, Gitleaks, Cisco network defense"
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "entries": [
+        {
+          "heading": "AAA and Co., CPAs",
+          "role": "Software Development Associate",
+          "right": "Jun 2026 – Present",
+          "bullets": [
+            "Lead development of Gamma Oracle PM, a cost-control platform for project budgets, contractor payments and audit trails.",
+            "Automated 1% / 2% expanded withholding, 12% VAT, 10% CIAP 102 retention and 15% mobilization recoupment.",
+            "Enforced role-based permissions, JWT authentication, rate limiting and atomic transactions across ledger allocations."
+          ]
+        },
+        {
+          "heading": "Gamma Oracle Dimension Inc.",
+          "role": "Software Engineering Intern",
+          "right": "Feb 2026 – Jun 2026",
+          "bullets": [
+            "Built [BizMaker HRIS ERP](https://bizmaker-payroll.vercel.app/) alone: payroll SaaS paying 30+ employees with BIR, SSS, PhilHealth and Pag-IBIG.",
+            "Synced ZKTeco biometric attendance; CI runs Pytest, Vitest and Playwright against ephemeral PostgreSQL and Redis.",
+            "Co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months: certificate generator, PDF.js library, seminar admin."
+          ]
+        },
+        {
+          "heading": "Freelance Full-Stack Developer",
+          "right": "Jan 2024 – Present",
+          "bullets": [
+            "Built Bubble Hideout's restaurant POS and inventory system, handling 50+ orders a day with receipts and sales exports.",
+            "Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week.",
+            "Built Galaxent Perfume's attendance portal for up to 10 retail staff, replacing paper time sheets with calendar logs."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "entries": [
+        {
+          "heading": "STI OMMA Platform",
+          "role": "Full-Stack Engineer",
+          "right": "2026",
+          "sub": "Next.js, TypeScript, PostgreSQL (Prisma), Supabase Storage, Redis, Socket.io, Xendit",
+          "subRight": "Live site",
+          "url": "https://omma-art.vercel.app/",
+          "bullets": [
+            "Built an art-commission marketplace for STI artists with Xendit escrow, a 10% fee with payout splits and live chat.",
+            "Designed a 20-model PostgreSQL schema and 91 API routes, covered by 110 test files; passed all 36 alpha test cases."
+          ]
+        },
+        {
+          "heading": "CND Upraze",
+          "role": "Lead Full-Stack Developer",
+          "right": "2026",
+          "sub": "React 19, Laravel 11, PostgreSQL, Redis, Docker, GitHub Actions, Three.js, Groq AI",
+          "subRight": "GitHub",
+          "url": "https://github.com/binssente-crypto/CND-Upraze",
+          "bullets": [
+            "Built a services and e-commerce SaaS alone: 35 REST endpoints, 14 migrations, Laravel 11 API, React 19 front end.",
+            "Enforced an 80% minimum test-coverage gate and automated Docker deployment in GitHub Actions."
+          ]
+        },
+        {
+          "heading": "MAFI 3D Custom Clothing",
+          "role": "Lead Capstone Developer",
+          "right": "2025",
+          "sub": "PHP, MySQL, JavaScript, SVG, PHPMailer",
+          "subRight": "GitHub",
+          "url": "https://github.com/binssente-crypto/MAFI-Custom-3D",
+          "bullets": [
+            "Led a 12-month capstone replacing a garment maker's hand sketches with a browser clothing customizer.",
+            "Turned each customer design into a production work order for the cutting floor, with order tracking and email updates."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Certifications",
+      "lines": [
+        {
+          "label": "Cisco Networking Academy",
+          "text": "Junior Cybersecurity Analyst Career Path, Cyber Threat Management, Network Defense, Endpoint Security, Networking (3 courses), Python & JavaScript Essentials 1 & 2, Data Science & Analytics"
+        },
+        {
+          "label": "IBM SkillsBuild",
+          "text": "AI Fundamentals: Foundations for Understanding AI"
+        }
+      ]
+    },
+    {
+      "title": "Leadership & Activities",
+      "entries": [
+        {
+          "heading": "Team Lead, \"Println New Gen\"",
+          "right": "Jul 2026",
+          "sub": "eGovPH National Hackathon 2026, DICT",
+          "subRight": "SMX Aura, BGC",
+          "bullets": [
+            "Led a 5-member team through a 48-hour civic-tech sprint at the national eGovPH Hackathon.",
+            "Built sign-in and identity verification flows on 3 government sandbox APIs: eGov SSO, eVerify and eGovPay."
+          ]
+        },
+        {
+          "heading": "Auditor; Level Representative",
+          "right": "2023 – 2026",
+          "sub": "Graphic Artist Society, DFCAMCLP",
+          "subRight": "Las Piñas City, PH",
+          "bullets": [
+            "Elected Auditor (2025 – 2026): audited the organization's funds and managed its inventory.",
+            "As Level Representative (2023 – 2025), coordinated campus creative workshops."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Additional Information",
+      "lines": [
+        {
+          "label": "Languages",
+          "text": "English, Filipino"
+        }
+      ]
+    }
+  ]
+}
