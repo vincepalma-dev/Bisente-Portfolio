@@ -2,7 +2,9 @@
 import '@fontsource-variable/atkinson-hyperlegible-next/wght.css';
 import '../styles/global.css';
 import PetalLayer from '../components/PetalLayer.astro';
-const { title } = Astro.props;
+import SiteNav from '../components/SiteNav.astro';
+import AnalyticsConsent from '../components/AnalyticsConsent.astro';
+const { title, description = 'Mark Reizel Vincent C. Palma, full-stack engineer in the Philippines. Payroll, POS and SaaS systems running in production.' } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -10,6 +12,7 @@ const { title } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
+    <meta name="description" content={description} />
     <!-- Runs before first paint: pick the season from the visitor's clock and restore the petal pause choice. -->
     <script is:inline>
       (function () {
@@ -21,6 +24,8 @@ const { title } = Astro.props;
   </head>
   <body>
     <PetalLayer />
+    <SiteNav />
     <slot />
+    <AnalyticsConsent />
   </body>
 </html>

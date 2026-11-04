@@ -1,0 +1,106 @@
+---
+// Vercel Web Analytics, loaded only after the visitor allows it.
+// It sets no cookies, but page visits are still counted, so we ask first.
+// The choice is kept in localStorage ('analytics-consent' = 'yes' | 'no').
+---
+
+<div class="consent" role="region" aria-label="Analytics choice" hidden>
+  <p class="consent-text">
+    May I count page visits with Vercel Web Analytics? It uses no cookies and builds no profile of you.
+  </p>
+  <div class="consent-actions">
+    <button type="button" class="consent-btn consent-yes" data-consent="yes">Allow</button>
+    <button type="button" class="consent-btn" data-consent="no">No thanks</button>
+  </div>
+</div>
+
+<script>
+  import { inject } from '@vercel/analytics';
+
+  const KEY = 'analytics-consent';
+  const banner = document.querySelector<HTMLElement>('.consent');
+
+  let choice: string | null = null;
+  try { choice = localStorage.getItem(KEY); } catch {}
+
+  if (choice === 'yes') inject();
+  else if (choice !== 'no' && banner) banner.hidden = false;
+
+  banner?.addEventListener('click', (event) => {
+    const value = (event.target as HTMLElement).closest<HTMLElement>('[data-consent]')?.dataset.consent;
+    if (!value) return;
+    try { localStorage.setItem(KEY, value); } catch {}
+    banner.hidden = true;
+    if (value === 'yes') inject();
+  });
+</script>
+
+<style>
+.consent {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 40;
+  max-width: min(360px, calc(100vw - 88px)); /* leaves room for the petal toggle at bottom-right */
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #141B21;
+  color: #F3EFE7;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  font-family: 'Atkinson Hyperlegible Next Variable', system-ui, -apple-system, sans-serif;
+}
+
+.consent[hidden] {
+  display: none;
+}
+
+.consent-text {
+  margin: 0 0 12px;
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.consent-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.consent-btn {
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(243, 239, 231, 0.3);
+  background: transparent;
+  color: #F3EFE7;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.consent-btn:hover {
+  border-color: #F3EFE7;
+}
+
+.consent-yes {
+  background: #F0896B;
+  border-color: #F0896B;
+  color: #141B21;
+}
+
+.consent-yes:hover {
+  background: #F3EFE7;
+  border-color: #F3EFE7;
+}
+
+.consent-btn:focus-visible {
+  outline: 3px solid #F0896B;
+  outline-offset: 2px;
+}
+
+@media print {
+  .consent {
+    display: none;
+  }
+}
+</style>

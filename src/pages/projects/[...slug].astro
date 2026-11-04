@@ -18,24 +18,24 @@ const year = new Date(project.data.date).getUTCFullYear();
 <Base title={`${project.data.title} — Projects`}>
   <article class="project-page container">
     <nav class="back-nav" aria-label="Navigation">
-      <a href="/" class="back-link">
+      <a href="/#work" class="back-link">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <line x1="19" y1="12" x2="5" y2="12"></line>
           <polyline points="12 19 5 12 12 5"></polyline>
         </svg>
-        Back to Route Map
+        All work
       </a>
     </nav>
 
     <header class="project-header">
       {project.data.logo && (
         <div class="project-logo-wrap">
-          <img src={project.data.logo} alt={`${project.data.title} logo`} class="project-logo" />
+          <img src={project.data.logo} alt={`${project.data.title} logo`} class="project-logo" style={project.data.logoBg && `background: ${project.data.logoBg}; padding: 10px 14px`} />
         </div>
       )}
 
       <div class="meta-row">
-        <span class="year-badge">{year}</span>
+        <span class="year-badge">{project.data.event ? `Hackathon · ${year}` : year}</span>
         {project.data.client && <span class="client-badge">{project.data.client}</span>}
         {project.data.role && <span class="role-badge">{project.data.role}</span>}
       </div>
@@ -74,6 +74,12 @@ const year = new Date(project.data.date).getUTCFullYear();
             </a>
           )}
         </div>
+      )}
+
+      {project.data.shot && project.data.links?.live && (
+        <a href={project.data.links.live} target="_blank" rel="noopener noreferrer" class="project-shot" aria-label={`Visit the ${project.data.title} live site (opens in a new tab)`}>
+          <img src={project.data.shot} alt={`${project.data.title} landing page`} width="1440" height="900" decoding="async" />
+        </a>
       )}
 
       <div class="skills-wrap" aria-label="Technologies used">
@@ -163,7 +169,7 @@ const year = new Date(project.data.date).getUTCFullYear();
 }
 
 .back-link:hover {
-  color: var(--notes);
+  color: var(--accent-ink);
   text-decoration: none;
 }
 
@@ -212,9 +218,9 @@ const year = new Date(project.data.date).getUTCFullYear();
 }
 
 .role-badge {
-  background: color-mix(in srgb, var(--notes) 10%, var(--surface));
-  color: var(--notes-text);
-  border: 1px solid color-mix(in srgb, var(--notes) 30%, transparent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  color: var(--accent-ink);
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
   font-size: 0.85rem;
@@ -246,9 +252,10 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: color-mix(in srgb, var(--notes) 10%, var(--surface));
-  color: var(--notes-text);
-  border: 1px solid color-mix(in srgb, var(--notes) 35%, transparent);
+  min-height: 44px;
+  background: var(--accent-ink);
+  color: #FFF;
+  border: 1px solid var(--accent-ink);
   padding: 0.55rem 1.15rem;
   border-radius: 999px;
   font-weight: 700;
@@ -258,9 +265,39 @@ h1 {
 }
 
 .btn-live:hover {
-  background: var(--notes-text);
-  border-color: var(--notes-text);
+  background: color-mix(in srgb, var(--accent-ink) 82%, black);
+  border-color: color-mix(in srgb, var(--accent-ink) 82%, black);
   color: #FFF;
+}
+
+.project-shot {
+  display: block;
+  margin: 0.5rem 0 1.5rem;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 18px 44px rgba(31, 42, 51, 0.16);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.project-shot:hover {
+  transform: translateY(-3px);
+}
+
+.project-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-shot {
+    transition: none;
+  }
+
+  .project-shot:hover {
+    transform: none;
+  }
 }
 
 .btn-repo {

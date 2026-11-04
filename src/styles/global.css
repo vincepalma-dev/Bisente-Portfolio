@@ -27,6 +27,18 @@
   --notes-text: #0369A1;
   --notes-glow: rgba(2, 132, 199, 0.25);
 
+  /* The one accent for chrome: shu vermilion */
+  --accent: var(--projects);
+  --accent-ink: var(--projects-text);
+
+  /* Sumi stage: the dark band that shows the live work */
+  --stage: #141B21;
+  --stage-2: #1C252D;
+  --stage-ink: #F3EFE7;
+  --stage-ink-2: #A9B1B8;
+  --stage-accent: #F0896B;
+  --stage-border: rgba(243, 239, 231, 0.12);
+
   --accent-purple: #7C3AED;
   --accent-gold: #B45309;
 
@@ -44,9 +56,14 @@
   --radius-md: 10px;
   --radius-lg: 14px;
   --shadow-card: 0 1px 2px rgba(31, 42, 51, 0.04), 0 8px 24px rgba(31, 42, 51, 0.05);
-  --focus-ring: 0 0 0 3px rgba(2, 132, 199, 0.45);
+  --focus-ring: 0 0 0 2px var(--paper), 0 0 0 4px var(--accent-ink);
 
   --font: 'Atkinson Hyperlegible Next Variable', system-ui, -apple-system, sans-serif;
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-lg: 1.25rem;
+  --text-display: clamp(2.4rem, 5.6vw, 4.25rem);
+
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
@@ -72,7 +89,7 @@
 
 body {
   margin: 0;
-  padding: var(--space-6) 0 var(--space-8);
+  padding: 0 0 var(--space-8);
   background-color: var(--paper);
   color: var(--ink);
   font-family: var(--font);
@@ -100,12 +117,13 @@ h1 {
 }
 
 a {
-  color: var(--notes);
+  color: var(--accent-ink);
+  text-underline-offset: 3px;
   transition: color 0.15s ease, opacity 0.15s ease;
 }
 
 a:hover {
-  color: var(--notes-text);
+  color: var(--ink);
 }
 
 :focus-visible {
