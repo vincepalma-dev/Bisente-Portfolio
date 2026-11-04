@@ -77,8 +77,8 @@ const year = (d: Date) => d.getUTCFullYear();
       <div class="hero-body">
         <p class="hero-tagline">I build secure, reliable web systems for businesses.</p>
         <p class="hero-lede">
-          Software Development Associate at AAA and Co., CPAs. Magna Cum Laude in Information Systems, 2026.
-          Shipping for real clients since 2024.
+          Software Development Associate at AAA and Co., CPAs. Magna Cum Laude in Information Systems,
+          Dr. Filemon C. Aguilar Memorial College of Las Piñas, 2026. Shipping for real clients since 2024.
         </p>
         <div class="hero-actions">
           <a href="#work" class="btn btn-primary">
@@ -240,12 +240,6 @@ const year = (d: Date) => d.getUTCFullYear();
           </li>
         ))}
       </ul>
-
-      <p class="edu">
-        <strong>Education</strong>
-        <span>BS Information Systems, Dr. Filemon C. Aguilar Memorial College of Las Piñas, 2022 – 2026</span>
-        <span>TVL-ICT, De La Salle Santiago Zobel School – BRafeNHS, 2016 – 2022</span>
-      </p>
     </section>
 
     <!-- Skills + route map -->
@@ -1070,31 +1064,10 @@ const year = (d: Date) => d.getUTCFullYear();
   text-decoration: none;
 }
 
-.edu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2) var(--space-5);
-  margin: var(--space-6) 0 0;
-  padding: var(--space-4) var(--space-5);
-  border-radius: var(--radius-md);
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  color: var(--ink-2);
-  font-size: var(--text-sm);
-}
-
-.edu strong {
-  color: var(--ink);
-}
-
 @media (max-width: 860px) {
   .recog {
     grid-template-columns: 1fr;
     gap: var(--space-5);
-  }
-
-  .edu {
-    flex-direction: column;
   }
 }
 
