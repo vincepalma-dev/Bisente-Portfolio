@@ -26,8 +26,7 @@
         {
           "heading": "Dr. Filemon C. Aguilar Memorial College of Las Piñas",
           "right": "Las Piñas City, PH",
-          "sub": "Bachelor of Science in Information Systems, Magna Cum Laude",
-          "subRight": "2022 – 2026"
+          "sub": "Bachelor of Science in Information Systems, Magna Cum Laude"
         }
       ]
     },
@@ -35,7 +34,7 @@
       "title": "Technical Skills",
       "lines": [
         {
-          "label": "Languages",
+          "label": "Programming",
           "text": "TypeScript, JavaScript, Python, PHP, SQL, HTML, CSS, Bash"
         },
         {
@@ -57,6 +56,10 @@
         {
           "label": "AI & ML",
           "text": "Claude, Gemini and Groq APIs; AutoGen multi-agent apps; PyTorch, CUDA, Unsloth fine-tuning, Miniconda"
+        },
+        {
+          "label": "Spoken Languages",
+          "text": "English, Filipino"
         }
       ]
     },
@@ -78,7 +81,7 @@
           "role": "Software Engineering Intern",
           "right": "Feb 2026 – Jun 2026",
           "bullets": [
-            "Built [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) alone and co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months (see Projects)."
+            "Built [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) alone and co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months."
           ]
         },
         {
@@ -162,32 +165,31 @@
       "title": "Leadership & Activities",
       "entries": [
         {
-          "heading": "Team Lead, \"Println New Gen\"",
+          "heading": "eGovPH National Hackathon 2026, DICT",
+          "role": "Team Lead, \"Println New Gen\"",
           "right": "Jul 2026",
-          "sub": "eGovPH National Hackathon 2026, DICT",
-          "subRight": "SMX Aura, BGC",
           "bullets": [
             "Led a 5-member team through a 48-hour civic-tech sprint at the national eGovPH Hackathon.",
             "Built sign-in and identity verification flows on 3 government sandbox APIs: eGov SSO, eVerify and eGovPay."
           ]
         },
         {
-          "heading": "Auditor; Level Representative",
-          "right": "2023 – 2026",
-          "sub": "Graphic Artist Society, DFCAMCLP",
-          "subRight": "Las Piñas City, PH",
+          "heading": "Graphic Artist Society, DFCAMCLP",
+          "role": "Auditor",
+          "right": "2025 – 2026",
           "bullets": [
-            "Audited the organization's funds and inventory, and coordinated campus creative workshops."
+            "Elected by members to audit the organization's funds, checking officers' expenses against receipts and budgets.",
+            "Kept the organization's equipment and supplies inventory accurate and accounted for."
           ]
-        }
-      ]
-    },
-    {
-      "title": "Additional Information",
-      "lines": [
+        },
         {
-          "label": "Languages",
-          "text": "English, Filipino"
+          "heading": "Graphic Artist Society, DFCAMCLP",
+          "role": "Level Representative",
+          "right": "2023 – 2025",
+          "bullets": [
+            "Represented my year level to the organization's officers, bringing members' concerns and ideas to meetings.",
+            "Coordinated campus creative workshops for members."
+          ]
         }
       ]
     }

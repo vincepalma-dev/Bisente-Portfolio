@@ -7,18 +7,19 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 ## EDUCATION
 
 ### Dr. Filemon C. Aguilar Memorial College of Las Piñas
-*Las Piñas City, PH* | *Bachelor of Science in Information Systems, Magna Cum Laude* | 2022 – 2026
+*Las Piñas City, PH* | *Bachelor of Science in Information Systems, Magna Cum Laude*
 
 ---
 
 ## TECHNICAL SKILLS
 
-- **Languages:** TypeScript, JavaScript, Python, PHP, SQL, HTML, CSS, Bash
+- **Programming:** TypeScript, JavaScript, Python, PHP, SQL, HTML, CSS, Bash
 - **Frontend:** React 19, Next.js, Vue 3 (Pinia), Astro, Three.js / React Three Fiber, Tailwind CSS
 - **Backend & APIs:** Laravel 11, Django REST, FastAPI, Node.js / Express, Socket.io; Xendit and Maya payments, Brevo email
 - **Databases & DevOps:** PostgreSQL, Supabase, MySQL, Redis, SQLite, Prisma; Docker, GitHub Actions, Vercel, Render
 - **Testing & Security:** Pest / PHPUnit, Pytest, Vitest, Playwright, Postman / Newman; CodeQL, Gitleaks, Cisco network defense
 - **AI & ML:** Claude, Gemini and Groq APIs; AutoGen multi-agent apps; PyTorch, CUDA, Unsloth fine-tuning, Miniconda
+- **Spoken Languages:** English, Filipino
 
 ---
 
@@ -32,7 +33,7 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### Gamma Oracle Dimension Inc. | Software Engineering Intern
 *Feb 2026 – Jun 2026*
-- Built [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) alone and co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months (see Projects).
+- Built [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) alone and co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months.
 
 ### Freelance Full-Stack Developer
 *Jan 2024 – Present*
@@ -75,17 +76,17 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ## LEADERSHIP & ACTIVITIES
 
-### Team Lead, "Println New Gen"
-*Jul 2026* | *eGovPH National Hackathon 2026, DICT* | SMX Aura, BGC
+### eGovPH National Hackathon 2026, DICT | Team Lead, "Println New Gen"
+*Jul 2026*
 - Led a 5-member team through a 48-hour civic-tech sprint at the national eGovPH Hackathon.
 - Built sign-in and identity verification flows on 3 government sandbox APIs: eGov SSO, eVerify and eGovPay.
 
-### Auditor; Level Representative
-*2023 – 2026* | *Graphic Artist Society, DFCAMCLP* | Las Piñas City, PH
-- Audited the organization's funds and inventory, and coordinated campus creative workshops.
+### Graphic Artist Society, DFCAMCLP | Auditor
+*2025 – 2026*
+- Elected by members to audit the organization's funds, checking officers' expenses against receipts and budgets.
+- Kept the organization's equipment and supplies inventory accurate and accounted for.
 
----
-
-## ADDITIONAL INFORMATION
-
-- **Languages:** English, Filipino
+### Graphic Artist Society, DFCAMCLP | Level Representative
+*2023 – 2025*
+- Represented my year level to the organization's officers, bringing members' concerns and ideas to meetings.
+- Coordinated campus creative workshops for members.
