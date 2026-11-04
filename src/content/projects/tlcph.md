@@ -8,6 +8,7 @@ skills: ["PHP", "Laravel", "Vue.js", "MySQL", "JavaScript", "PDF.js", "FPDF"]
 related: []
 outcome: "Built core systems for the Tax Leaders Circle PH educational portal during my internship at Gamma Oracle alongside a fellow developer intern, including verified dynamic certificate generation and digital library."
 logo: "/images/projects/tlcph.png"
+shot: "/images/projects/shots/tlcph.jpg"
 links: { live: "https://tlcph.online/" }
 ---
 

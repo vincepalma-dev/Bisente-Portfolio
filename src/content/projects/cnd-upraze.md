@@ -8,6 +8,7 @@ skills: ["React", "Laravel", "PHP", "GitHub Actions", "Docker", "Three.js", "Pos
 related: []
 outcome: "Engineered an enterprise SaaS platform featuring an administrative telemetry command center, Three.js 3D manipulation studio, automated coverage gates, and automated Docker CI/CD deployment."
 logo: "/images/projects/cnd-upraze.png"
+logoBg: "#1F2A33"
 links:
   repo: "https://github.com/binssente-crypto/CND-Upraze"
 ---

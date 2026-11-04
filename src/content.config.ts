@@ -18,6 +18,12 @@ const projects = defineCollection({
     client: z.string().optional(),
     role: z.string().optional(),
     logo: z.string().optional(),
+    // Tile color behind the logo, for logos that vanish on white
+    logoBg: z.string().optional(),
+    // Landing-page screenshot of a live site (scripts/capture-shots.mjs)
+    shot: z.string().optional(),
+    // Events like hackathons: kept on the route map, left out of the project grid and counts
+    event: z.boolean().default(false),
     links: z.object({ live: z.string().url().optional(), repo: z.string().url().optional(), demo: z.string().url().optional() }).default({}),
   }),
 });

@@ -8,6 +8,7 @@ skills: ["Next.js", "React", "TypeScript", "GitHub Actions", "PostgreSQL", "Redi
 related: []
 outcome: "Engineered a production-ready community portal for STI multimedia artists with Supabase Storage bucket uploads, Xendit payments, automated security audits, and continuous API contract testing."
 logo: "/images/projects/omma-sti.png"
+shot: "/images/projects/shots/omma-platform.jpg"
 links:
   live: "https://omma-art.vercel.app/"
 ---

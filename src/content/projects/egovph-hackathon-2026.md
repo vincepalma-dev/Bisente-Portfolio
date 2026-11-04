@@ -2,6 +2,7 @@
 title: "eGovPH National Hackathon 2026"
 date: "2026"
 featured: true
+event: true
 client: "DICT - eGovPH Hackathon (SMX Aura, BGC)"
 role: "Team 'Println New Gen' Lead / Developer"
 skills: ["React", "APIs", "Cybersecurity", "Identity & SSO", "Civic Tech"]

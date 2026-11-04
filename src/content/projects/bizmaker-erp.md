@@ -8,6 +8,7 @@ skills: ["Vue.js", "TypeScript", "Python", "Django", "GitHub Actions", "Docker",
 related: []
 outcome: "Architected and built an enterprise payroll and HRIS ERP cloud SaaS handling Philippine statutory deductions, automated attendance sync, multi-tenant isolation, and resilient payroll runs."
 logo: "/images/projects/bizmaker.png"
+shot: "/images/projects/shots/bizmaker-erp.jpg"
 links: { live: "https://bizmaker-payroll.vercel.app/" }
 ---
 
