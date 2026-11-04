@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mrvcp-portfolio.vercel.app'
+  site: 'https://markvincentpalma.vercel.app'
 });

@@ -50,7 +50,7 @@ def create_resume(output_path):
 
     s_name = style("Name", fontName=regular, fontSize=15, leading=18, alignment=TA_CENTER, spaceAfter=2)
     s_center = style("Center", alignment=TA_CENTER)
-    s_section = style("Section", fontName=bold, fontSize=10.5, leading=12, spaceBefore=6, spaceAfter=1)
+    s_section = style("Section", fontName=bold, fontSize=10.5, leading=12, spaceBefore=5, spaceAfter=1)
     s_left = style("Left")
     s_right = style("Right", alignment=TA_RIGHT)
     s_line = style("Line", leftIndent=0)
@@ -91,7 +91,7 @@ def create_resume(output_path):
 
     for section in data["sections"]:
         story.append(Paragraph(escape(section["title"].upper()), s_section))
-        story.append(HRFlowable(width="100%", thickness=0.6, color=colors.black, spaceBefore=0, spaceAfter=3))
+        story.append(HRFlowable(width="100%", thickness=0.6, color=colors.black, spaceBefore=0, spaceAfter=2))
 
         for line in section.get("lines", []):
             story.append(Paragraph(f"<b>{escape(line['label'])}:</b> {escape(line['text'])}", s_line))

@@ -15,8 +15,8 @@
       "url": "https://github.com/binssente-crypto"
     },
     {
-      "label": "mrvcp-portfolio.vercel.app",
-      "url": "https://mrvcp-portfolio.vercel.app"
+      "label": "markvincentpalma.vercel.app",
+      "url": "https://markvincentpalma.vercel.app"
     }
   ],
   "sections": [
@@ -44,7 +44,7 @@
         },
         {
           "label": "Backend & APIs",
-          "text": "Laravel 11, Django REST Framework, FastAPI, Node.js / Express, REST, WebSockets (Socket.io)"
+          "text": "Laravel 11, Django REST, FastAPI, Node.js / Express, Socket.io; Xendit and Maya payments, Brevo email"
         },
         {
           "label": "Databases & DevOps",
@@ -53,6 +53,10 @@
         {
           "label": "Testing & Security",
           "text": "Pest / PHPUnit, Pytest, Vitest, Playwright, Postman / Newman; CodeQL, Gitleaks, Cisco network defense"
+        },
+        {
+          "label": "AI & ML",
+          "text": "Claude, Gemini and Groq APIs; AutoGen multi-agent apps; PyTorch, CUDA, Unsloth fine-tuning, Miniconda"
         }
       ]
     },
@@ -74,9 +78,7 @@
           "role": "Software Engineering Intern",
           "right": "Feb 2026 – Jun 2026",
           "bullets": [
-            "Built [BizMaker HRIS ERP](https://bizmaker-payroll.vercel.app/) alone: payroll SaaS paying 30+ employees with BIR, SSS, PhilHealth and Pag-IBIG.",
-            "Synced ZKTeco biometric attendance; CI runs Pytest, Vitest and Playwright against ephemeral PostgreSQL and Redis.",
-            "Co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months: certificate generator, PDF.js library, seminar admin."
+            "Built [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) alone and co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months (see Projects)."
           ]
         },
         {
@@ -106,15 +108,27 @@
           ]
         },
         {
-          "heading": "CND Upraze",
-          "role": "Lead Full-Stack Developer",
+          "heading": "BizMaker Payroll",
+          "role": "Sole Developer",
           "right": "2026",
-          "sub": "React 19, Laravel 11, PostgreSQL, Redis, Docker, GitHub Actions, Three.js, Groq AI",
-          "subRight": "GitHub",
-          "url": "https://github.com/binssente-crypto/CND-Upraze",
+          "sub": "Vue 3, TypeScript, Django REST, PostgreSQL, Redis, Docker, GitHub Actions",
+          "subRight": "Live site",
+          "url": "https://bizmaker-payroll.vercel.app/",
           "bullets": [
-            "Built a services and e-commerce SaaS alone: 35 REST endpoints, 14 migrations, Laravel 11 API, React 19 front end.",
-            "Enforced an 80% minimum test-coverage gate and automated Docker deployment in GitHub Actions."
+            "Built a multi-tenant payroll SaaS for 30+ staff: SSS, PhilHealth, Pag-IBIG, withholding tax and BIR 2316 certificates.",
+            "Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright verify payroll math."
+          ]
+        },
+        {
+          "heading": "Tax Leaders Circle PH",
+          "role": "Full-Stack Developer (Intern)",
+          "right": "2026",
+          "sub": "Laravel, Vue.js, PHP, MySQL, PDF.js, FPDI / FPDF",
+          "subRight": "Live site",
+          "url": "https://tlcph.online/",
+          "bullets": [
+            "Co-built the learning portal for Philippine tax professionals with 1 other intern: courses, digital library and seminars.",
+            "Built the certificate generator (FPDI / FPDF), a PDF.js flip-book tax library and the seminar reservation admin."
           ]
         },
         {
@@ -163,8 +177,7 @@
           "sub": "Graphic Artist Society, DFCAMCLP",
           "subRight": "Las Piñas City, PH",
           "bullets": [
-            "Elected Auditor (2025 – 2026): audited the organization's funds and managed its inventory.",
-            "As Level Representative (2023 – 2025), coordinated campus creative workshops."
+            "Audited the organization's funds and inventory, and coordinated campus creative workshops."
           ]
         }
       ]

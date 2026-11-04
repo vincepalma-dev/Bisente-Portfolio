@@ -1,6 +1,6 @@
 # MARK REIZEL VINCENT C. PALMA
 Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com  
-[linkedin.com/in/mark-reizel-vincent-palma-903253297](https://www.linkedin.com/in/mark-reizel-vincent-palma-903253297/) | [github.com/binssente-crypto](https://github.com/binssente-crypto) | [mrvcp-portfolio.vercel.app](https://mrvcp-portfolio.vercel.app)
+[linkedin.com/in/mark-reizel-vincent-palma-903253297](https://www.linkedin.com/in/mark-reizel-vincent-palma-903253297/) | [github.com/binssente-crypto](https://github.com/binssente-crypto) | [markvincentpalma.vercel.app](https://markvincentpalma.vercel.app)
 
 ---
 
@@ -15,9 +15,10 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 - **Languages:** TypeScript, JavaScript, Python, PHP, SQL, HTML, CSS, Bash
 - **Frontend:** React 19, Next.js, Vue 3 (Pinia), Astro, Three.js / React Three Fiber, Tailwind CSS
-- **Backend & APIs:** Laravel 11, Django REST Framework, FastAPI, Node.js / Express, REST, WebSockets (Socket.io)
+- **Backend & APIs:** Laravel 11, Django REST, FastAPI, Node.js / Express, Socket.io; Xendit and Maya payments, Brevo email
 - **Databases & DevOps:** PostgreSQL, Supabase, MySQL, Redis, SQLite, Prisma; Docker, GitHub Actions, Vercel, Render
 - **Testing & Security:** Pest / PHPUnit, Pytest, Vitest, Playwright, Postman / Newman; CodeQL, Gitleaks, Cisco network defense
+- **AI & ML:** Claude, Gemini and Groq APIs; AutoGen multi-agent apps; PyTorch, CUDA, Unsloth fine-tuning, Miniconda
 
 ---
 
@@ -31,9 +32,7 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### Gamma Oracle Dimension Inc. | Software Engineering Intern
 *Feb 2026 – Jun 2026*
-- Built [BizMaker HRIS ERP](https://bizmaker-payroll.vercel.app/) alone: payroll SaaS paying 30+ employees with BIR, SSS, PhilHealth and Pag-IBIG.
-- Synced ZKTeco biometric attendance; CI runs Pytest, Vitest and Playwright against ephemeral PostgreSQL and Redis.
-- Co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months: certificate generator, PDF.js library, seminar admin.
+- Built [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) alone and co-built [Tax Leaders Circle PH](https://tlcph.online/) with 1 other intern in 4 months (see Projects).
 
 ### Freelance Full-Stack Developer
 *Jan 2024 – Present*
@@ -50,10 +49,15 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 - Built an art-commission marketplace for STI artists with Xendit escrow, a 10% fee with payout splits and live chat.
 - Designed a 20-model PostgreSQL schema and 91 API routes, covered by 110 test files; passed all 36 alpha test cases.
 
-### [CND Upraze](https://github.com/binssente-crypto/CND-Upraze) | Lead Full-Stack Developer
-*2026* | *React 19, Laravel 11, PostgreSQL, Redis, Docker, GitHub Actions, Three.js, Groq AI*
-- Built a services and e-commerce SaaS alone: 35 REST endpoints, 14 migrations, Laravel 11 API, React 19 front end.
-- Enforced an 80% minimum test-coverage gate and automated Docker deployment in GitHub Actions.
+### [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) | Sole Developer
+*2026* | *Vue 3, TypeScript, Django REST, PostgreSQL, Redis, Docker, GitHub Actions*
+- Built a multi-tenant payroll SaaS for 30+ staff: SSS, PhilHealth, Pag-IBIG, withholding tax and BIR 2316 certificates.
+- Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright verify payroll math.
+
+### [Tax Leaders Circle PH](https://tlcph.online/) | Full-Stack Developer (Intern)
+*2026* | *Laravel, Vue.js, PHP, MySQL, PDF.js, FPDI / FPDF*
+- Co-built the learning portal for Philippine tax professionals with 1 other intern: courses, digital library and seminars.
+- Built the certificate generator (FPDI / FPDF), a PDF.js flip-book tax library and the seminar reservation admin.
 
 ### [MAFI 3D Custom Clothing](https://github.com/binssente-crypto/MAFI-Custom-3D) | Lead Capstone Developer
 *2025* | *PHP, MySQL, JavaScript, SVG, PHPMailer*
@@ -78,8 +82,7 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### Auditor; Level Representative
 *2023 – 2026* | *Graphic Artist Society, DFCAMCLP* | Las Piñas City, PH
-- Elected Auditor (2025 – 2026): audited the organization's funds and managed its inventory.
-- As Level Representative (2023 – 2025), coordinated campus creative workshops.
+- Audited the organization's funds and inventory, and coordinated campus creative workshops.
 
 ---
 
