@@ -4,7 +4,7 @@ date: "2025"
 featured: false
 client: "Personal Exploration"
 role: "Creator & AI Engineer"
-skills: ["Python", "FastAPI", "AutoGen", "Vue.js", "TailwindCSS", "WebSockets"]
+skills: ["Python", "FastAPI", "AutoGen", "Vue.js", "TailwindCSS", "WebSockets", "Claude", "Gemini"]
 related: []
 outcome: "Engineered an autonomous multi-agent platform using AutoGen, FastAPI, and Vue 3 to coordinate specialized AI agents with live WebSocket monitoring."
 links:

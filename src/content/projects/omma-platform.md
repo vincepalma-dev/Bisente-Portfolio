@@ -4,7 +4,7 @@ date: "2026"
 featured: true
 client: "Organization of Multimedia Artists (STI)"
 role: "Freelance Full-Stack Engineer"
-skills: ["Next.js", "React", "TypeScript", "GitHub Actions", "PostgreSQL", "Redis", "Prisma", "Supabase Storage", "TailwindCSS", "Socket.io"]
+skills: ["Next.js", "React", "TypeScript", "GitHub Actions", "PostgreSQL", "Redis", "Prisma", "Supabase Storage", "TailwindCSS", "Socket.io", "Xendit"]
 related: []
 outcome: "Engineered a production-ready community portal for STI multimedia artists with Supabase Storage bucket uploads, Xendit payments, automated security audits, and continuous API contract testing."
 logo: "/images/projects/omma-sti.png"

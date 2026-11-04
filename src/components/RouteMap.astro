@@ -99,6 +99,9 @@ const skillCategories = [
       { name: 'Django', slug: 'django', icon: 'django', common: true },
       { name: 'FastAPI', slug: 'fastapi', icon: 'fastapi', common: false },
       { name: 'WebSockets', slug: 'websockets', icon: 'socket', common: false },
+      { name: 'Xendit Payments', slug: 'xendit', icon: 'card', common: false },
+      { name: 'Maya Payments', slug: 'maya', icon: 'card', common: false },
+      { name: 'Brevo Email', slug: 'brevo', icon: 'mail', common: false },
     ],
   },
   {
@@ -153,6 +156,20 @@ const skillCategories = [
       { name: 'Network Defense', slug: 'network-defense', icon: 'firewall', common: false },
       { name: 'Cisco IOS', slug: 'cisco-ios', icon: 'cisco', common: false },
       { name: 'Threat Intel', slug: 'threat-intelligence', icon: 'intel', common: false },
+    ],
+  },
+  {
+    name: 'AI & ML',
+    color: '#14B8A6',
+    skills: [
+      { name: 'Claude', slug: 'claude', icon: 'claude', common: true },
+      { name: 'Gemini', slug: 'gemini', icon: 'gemini', common: true },
+      { name: 'Groq API', slug: 'groq-ai', icon: 'api', common: false },
+      { name: 'AutoGen Agents', slug: 'autogen', icon: 'agents', common: true },
+      { name: 'PyTorch', slug: 'pytorch', icon: 'pytorch', common: true },
+      { name: 'CUDA', slug: 'cuda', icon: 'cuda', common: true },
+      { name: 'Unsloth Fine-tuning', slug: 'unsloth', icon: 'bolt', common: false },
+      { name: 'Miniconda', slug: 'miniconda', icon: 'conda', common: false },
     ],
   },
 ];
@@ -521,8 +538,71 @@ const skillCategories = [
                     <line x1="12" y1="12" x2="12" y2="14"/>
                   </svg>
                 )}
+                {sk.icon === 'claude' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#D97757" stroke-width="2.4" stroke-linecap="round" class="pill-icon">
+                    <line x1="12" y1="3" x2="12" y2="21"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="5.6" y1="5.6" x2="18.4" y2="18.4"/>
+                    <line x1="18.4" y1="5.6" x2="5.6" y2="18.4"/>
+                  </svg>
+                )}
+                {sk.icon === 'gemini' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="#4285F4" class="pill-icon">
+                    <path d="M12 2c.5 5.5 4.5 9.5 10 10-5.5.5-9.5 4.5-10 10-.5-5.5-4.5-9.5-10-10 5.5-.5 9.5-4.5 10-10z"/>
+                  </svg>
+                )}
+                {sk.icon === 'agents' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#14B8A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pill-icon">
+                    <circle cx="12" cy="5" r="2.5"/>
+                    <circle cx="5" cy="18" r="2.5"/>
+                    <circle cx="19" cy="18" r="2.5"/>
+                    <line x1="10.7" y1="7.2" x2="6.3" y2="15.8"/>
+                    <line x1="13.3" y1="7.2" x2="17.7" y2="15.8"/>
+                    <line x1="7.5" y1="18" x2="16.5" y2="18"/>
+                  </svg>
+                )}
+                {sk.icon === 'pytorch' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#EE4C2C" stroke-width="2.2" stroke-linecap="round" class="pill-icon">
+                    <path d="M12 3L7.5 7.5a6.4 6.4 0 1 0 9 0"/>
+                    <circle cx="15.8" cy="5.6" r="1" fill="#EE4C2C" stroke="none"/>
+                  </svg>
+                )}
+                {sk.icon === 'cuda' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#76B900" stroke-width="2" stroke-linecap="round" class="pill-icon">
+                    <rect x="6" y="6" width="12" height="12" rx="1.5"/>
+                    <rect x="9.5" y="9.5" width="5" height="5" fill="#76B900" stroke="none"/>
+                    <line x1="9" y1="2" x2="9" y2="6"/><line x1="15" y1="2" x2="15" y2="6"/>
+                    <line x1="9" y1="18" x2="9" y2="22"/><line x1="15" y1="18" x2="15" y2="22"/>
+                    <line x1="2" y1="9" x2="6" y2="9"/><line x1="2" y1="15" x2="6" y2="15"/>
+                    <line x1="18" y1="9" x2="22" y2="9"/><line x1="18" y1="15" x2="22" y2="15"/>
+                  </svg>
+                )}
+                {sk.icon === 'bolt' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="#10B981" class="pill-icon">
+                    <polygon points="13 2 4 14 11 14 10 22 20 10 13 10 13 2"/>
+                  </svg>
+                )}
+                {sk.icon === 'conda' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#44A833" stroke-width="2.2" class="pill-icon">
+                    <circle cx="12" cy="12" r="9"/>
+                    <circle cx="12" cy="12" r="4"/>
+                  </svg>
+                )}
+                {sk.icon === 'card' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pill-icon">
+                    <rect x="2" y="5" width="20" height="14" rx="2"/>
+                    <line x1="2" y1="10" x2="22" y2="10"/>
+                    <line x1="6" y1="15" x2="10" y2="15"/>
+                  </svg>
+                )}
+                {sk.icon === 'mail' && (
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#0B996E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pill-icon">
+                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                    <polyline points="22 6 12 13 2 6"/>
+                  </svg>
+                )}
                 {/* Fallback default tech icon if not matched above */}
-                {!['js','ts','python','php','html','css','terminal','react','next','vue','pinia','tailwind','bootstrap','vector','node','server','laravel','django','fastapi','api','socket','docker','shield','radar','alert','firewall','intel','packet','cisco','linux','db','postgres','mysql','redis','prisma','supabase','cloud','playwright','vitest','pest','pytest','postman','newman','phpunit','supertest','actions','react-native','three','codeql','gitleaks','rabbit','mermaid'].includes(sk.icon) && (
+                {!['js','ts','python','php','html','css','terminal','react','next','vue','pinia','tailwind','bootstrap','vector','node','server','laravel','django','fastapi','api','socket','docker','shield','radar','alert','firewall','intel','packet','cisco','linux','db','postgres','mysql','redis','prisma','supabase','cloud','playwright','vitest','pest','pytest','postman','newman','phpunit','supertest','actions','react-native','three','codeql','gitleaks','rabbit','mermaid','claude','gemini','agents','pytorch','cuda','bolt','conda','card','mail'].includes(sk.icon) && (
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="pill-icon">
                     <polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline>
                   </svg>
@@ -1152,17 +1232,11 @@ const skillCategories = [
 
 .kanban-grid {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr)); /* 8 categories: two even rows */
   align-items: start; /* each column only as tall as its skills, no empty card bottoms */
   gap: 0.65rem;
 }
 
-@media (max-width: 1060px) {
-  .kanban-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0.75rem;
-  }
-}
 
 /* Phones: columns swipe horizontally instead of stacking into one long list */
 @media (max-width: 760px) {
