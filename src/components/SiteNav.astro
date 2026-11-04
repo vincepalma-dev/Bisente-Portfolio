@@ -1,5 +1,7 @@
 ---
 // Slim sticky nav on every Base page. Section links point at homepage anchors.
+// showName=false hides the name text where the page already shows it large (homepage hero).
+const { showName = true } = Astro.props;
 const links = [
   { href: '/#work', label: 'Work' },
   { href: '/#experience', label: 'Experience' },
@@ -13,7 +15,7 @@ const links = [
   <nav class="site-nav-inner container" aria-label="Main">
     <a href="/" class="site-brand" aria-label="Mark Vincent Palma, home">
       <span class="site-seal" aria-hidden="true">MVP</span>
-      <span class="site-name">Mark Vincent Palma</span>
+      {showName && <span class="site-name">Mark Vincent Palma</span>}
     </a>
     <ul class="site-links">
       {links.map((l) => (

@@ -65,13 +65,14 @@ const host = (url: string) => new URL(url).hostname.replace(/^www\./, '');
 const year = (d: Date) => d.getUTCFullYear();
 ---
 
-<Base title="Mark Reizel Vincent C. Palma | Full-Stack Engineer">
+<Base title="Mark Reizel Vincent C. Palma | Full-Stack Engineer" navName={false}>
   <main id="main">
     <!-- Hero -->
     <header class="hero container">
       <div class="hero-text">
-        <p class="hero-eyebrow">Full-stack engineer, Las Piñas PH</p>
-        <h1 class="hero-title">I build payroll, POS and SaaS systems for Philippine businesses.</h1>
+        <h1 class="hero-title">Mark Vincent Palma</h1>
+        <p class="hero-role">Full-Stack Engineer <span aria-hidden="true">·</span> Las Piñas, PH</p>
+        <p class="hero-tagline">I build secure, reliable web systems for businesses.</p>
         <p class="hero-lede">
           Software Development Associate at AAA and Co., CPAs. Magna Cum Laude in Information Systems, 2026.
           Shipping for real clients since 2024.
@@ -353,28 +354,36 @@ const year = (d: Date) => d.getUTCFullYear();
   padding-top: var(--space-6);
 }
 
-.hero-eyebrow {
-  margin: 0 0 var(--space-4);
-  color: var(--ink-2);
-  font-size: var(--text-sm);
-  font-weight: 600;
-}
-
 .hero-title {
-  margin: 0 0 var(--space-5);
+  margin: 0 0 var(--space-3);
   font-size: var(--text-display);
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 1.04;
-  max-width: 17ch;
   text-wrap: balance;
+}
+
+.hero-role {
+  margin: 0 0 var(--space-4);
+  font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.hero-tagline {
+  margin: 0 0 var(--space-5);
+  max-width: 44ch;
+  color: var(--ink-2);
+  font-size: clamp(1.15rem, 1.8vw, 1.35rem);
+  text-wrap: balance;
+  line-height: 1.45;
 }
 
 .hero-lede {
   margin: 0 0 var(--space-6);
   max-width: 58ch;
-  color: var(--ink-2);
-  font-size: var(--text-lg);
+  color: var(--ink-3);
+  font-size: 1rem;
   line-height: 1.55;
 }
 

@@ -4,7 +4,7 @@ import '../styles/global.css';
 import PetalLayer from '../components/PetalLayer.astro';
 import SiteNav from '../components/SiteNav.astro';
 import AnalyticsConsent from '../components/AnalyticsConsent.astro';
-const { title, description = 'Mark Reizel Vincent C. Palma, full-stack engineer in the Philippines. Payroll, POS and SaaS systems running in production.' } = Astro.props;
+const { title, navName = true, description = 'Mark Reizel Vincent C. Palma, full-stack engineer in the Philippines. Payroll, POS and SaaS systems running in production.' } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -26,7 +26,7 @@ const { title, description = 'Mark Reizel Vincent C. Palma, full-stack engineer 
   </head>
   <body>
     <PetalLayer />
-    <SiteNav />
+    <SiteNav showName={navName} />
     <slot />
     <AnalyticsConsent />
   </body>
