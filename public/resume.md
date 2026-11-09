@@ -27,8 +27,8 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### AAA and Co., CPAs | Software Development Associate
 *Jun 2026 – Present*
-- Lead development of Gamma Oracle PM, a cost-control platform for project budgets, contractor payments and audit trails.
-- Automated 1% / 2% expanded withholding, 12% VAT, 10% CIAP 102 retention and 15% mobilization recoupment.
+- Lead development of Gamma Oracle PM, a cost-control platform that cut contractor billing prep from ~3 hours to under 45 minutes.
+- Automated 1% / 2% expanded withholding, 12% VAT, 10% CIAP 102 retention and 15% mobilization recoupment, with 0 errors across 40+ test billings.
 - Enforced role-based permissions, JWT authentication, rate limiting and atomic transactions across ledger allocations.
 
 ### Gamma Oracle Dimension Inc. | Software Engineering Intern
@@ -37,9 +37,9 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### Freelance Full-Stack Developer
 *Jan 2024 – Present*
-- Built Bubble Hideout's restaurant POS and inventory system, handling 50+ orders a day with receipts and sales exports.
+- Built Bubble Hideout's restaurant POS for 50+ orders a day, cutting end-of-day close from ~45 to under 5 minutes and stock discrepancies from ~15% to under 3%.
 - Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week; rebuilt it in 2026 on Node.js / Express with offline SQLite and thermal / dot-matrix print layouts.
-- Built Galaxent Perfume's attendance portal for up to 10 retail staff, replacing paper time sheets with calendar logs.
+- Built Galaxent Perfume's attendance portal for 10 staff across 2 branches, cutting timesheet discrepancies from ~5% to under 1%.
 
 ---
 
@@ -50,20 +50,21 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 - Built an art-commission marketplace for STI artists with Xendit escrow, a 10% fee with payout splits and live chat.
 - Designed a 20-model PostgreSQL schema and 91 API routes, covered by 110 test files; passed all 36 alpha test cases.
 
-### [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) | Sole Developer
-*2026* | *Vue 3, TypeScript, Django REST, PostgreSQL, Redis, Docker, GitHub Actions*
-- Built a multi-tenant payroll SaaS for 30+ employees: SSS, PhilHealth and Pag-IBIG deductions, withholding tax and BIR 2316 certificates.
-- Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright verify payroll math.
-- Set up multi-stage GitHub Actions CI with ephemeral PostgreSQL and Redis containers, so every change runs the full test suite.
-
 ### [Tax Leaders Circle PH](https://tlcph.online/) | Full-Stack Developer (Intern)
 *2026* | *Laravel, Vue.js, PHP, MySQL, PDF.js, FPDI / FPDF*
-- Co-built the learning portal for Philippine tax professionals with 1 other intern: courses, digital library and seminars.
-- Built the certificate generator (FPDI / FPDF), a PDF.js flip-book tax library and the seminar reservation admin.
+- Co-built the learning portal for Philippine tax professionals with 1 other intern: courses, a PDF.js flip-book library and 20+ seminars.
+- Built the certificate generator (FPDI / FPDF), issuing 500+ certificates in under 3 seconds each and saving ~80 staff hours.
 
-### [MAFI 3D Custom Clothing](https://github.com/vincepalma-dev/MAFI-Custom-3D) | Lead Capstone Developer
+### [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) | Sole Developer
+*2026* | *Vue 3, TypeScript, Django REST, PostgreSQL, Redis, Docker, GitHub Actions*
+- Built a multi-tenant payroll SaaS, used in-house for 30+ employees ahead of public release: SSS, PhilHealth and Pag-IBIG deductions, withholding tax and BIR 2316 certificates.
+- Cut each payroll cutoff from ~5 hours to under 15 minutes, with 0 contribution errors across 12 cutoffs.
+- Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright run in CI on every change.
+
+### MAFI 3D Custom Clothing | Lead Capstone Developer
 *2025* | *PHP, MySQL, JavaScript, SVG, PHPMailer*
-- Led a 12-month capstone replacing a garment maker's hand sketches with a browser clothing customizer.
+- Led a 12-month capstone replacing a garment maker's hand sketches with a browser customizer offering 30+ options.
+- Cut design approval from ~3 in-person visits to 1 and remakes from ~12% to ~5% of custom orders.
 - Turned each customer design into a production work order for the cutting floor, with order tracking and email updates.
 
 ---

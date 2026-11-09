@@ -7,24 +7,37 @@ client: "DICT - eGovPH Hackathon (SMX Aura, BGC)"
 role: "Team 'Println New Gen' Lead / Developer"
 skills: ["React", "APIs", "Cybersecurity", "Identity & SSO", "Civic Tech"]
 related: []
-outcome: "Built a civic-tech prototype with team 'Println New Gen' at the nationwide eGovPH Hackathon 2026 in SMX Aura, integrating government APIs for digital public services."
+outcome: "Civic-tech prototype built in 48 hours on 3 government APIs, letting citizens reach local government services with a verified digital ID. A hackathon project built with a 5-member team."
 links: {}
 ---
 
 ### Overview
-In July 2026, our team—**Println New Gen**—competed in the nationwide eGovPH Hackathon organized by the DICT at the SMX Convention Center Aura in BGC. It was a 48-hour sprint building civic-tech solutions on top of the government's official developer infrastructure, including the eGov Single Sign-On, eVerify, and eGovPay APIs.
 
-Even though we didn't take home the championship, the two days were pure energy. Stepping out of our usual routine and building under real pressure taught us more than months of reading ever could. Best of all, we finally met people in person whom we'd only ever watched on our screens—getting to chat with **Bryl Lim** (whose team took champion with their fact-checking AI, *Tunai*) and snapping photos with **Boss Rod** (*Code with Boss Rod*).
+Citizens need a way to reach local government services without proving who they are in person every time. The challenge was building it in 48 hours on the government's own sandbox APIs. Our team built a prototype where citizens sign in with eGov SSO, get verified through eVerify and pay fees through eGovPay. We shipped a working demo on 3 live government APIs within the 48 hours.
 
-### Team & Roles
-- **Team Name**: Println New Gen
-- **Squad**: 5-member co-working engineering team
-- **Focus**: Streamlined public verification workflows connecting citizens to local government services using verified digital IDs.
+- **Role:** Team lead and developer: led the 5-member team and built the sign-in and identity verification flows
+- **Timeline:** 48 hours, July 2026
+- **Built for:** Filipino citizens and local government offices · hackathon prototype
+- **Impact:** Working demo on 3 government sandbox APIs in 48 hours
 
-### Hackathon Highlights
-- **48-Hour Prototyping Sprint**: Designed and deployed a working web interface consuming live sandbox government endpoints.
-- **Hands-on API Integration**: Worked directly with eGov SSO authentication protocols and digital identity verification flows.
-- **Meeting Tech Heroes**: Shared ideas with Bryl Lim and hung out with Boss Rod right on the event floor.
+### The Challenge
+Build a working civic-tech product in 48 hours on the government's own developer infrastructure: the eGov Single Sign-On, eVerify and eGovPay APIs. Our focus was public verification, connecting citizens to local government services using a verified digital ID.
+
+### Solution & Architecture
+**Data flow:** Web app → eGov SSO for sign-in → eVerify to confirm identity → local government service request, with eGovPay for fees.
+
+- **Sign-in:** Citizens log in through eGov SSO instead of creating yet another account.
+- **Identity verification:** eVerify confirms the person before a request reaches the government office.
+- **Working prototype:** A deployed web interface calling live sandbox endpoints, not slides.
+
+### Results
+- **Working prototype in 48 hours**, built on **3 live government sandbox APIs**.
+- **5-member team** coordinated from idea to demo.
+- We didn't take the championship. That went to Bryl Lim's team for their fact-checking AI, *Tunai*.
+
+### Key Takeaways
+- Two days of building under real pressure taught us more than months of reading. With no time to spare, you cut everything that doesn't solve the problem in front of you.
+- The people were half the value. We finally met people we'd only watched on screen: we talked with **Bryl Lim** and took photos with **Boss Rod** (*Code with Boss Rod*).
 
 ### Photo Gallery
 

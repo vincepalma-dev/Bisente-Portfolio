@@ -6,18 +6,38 @@ client: "Michael Anthony's Fashion Inc."
 role: "Freelance Software Developer"
 skills: ["Node.js", "Express", "SQLite", "JavaScript", "HTML5", "CSS3"]
 related: []
-outcome: "Automated manual delivery receipts and invoicing for a local garment business—originally built in 2024 and upgraded in 2026 with Node.js, Express, and local SQLite persistence."
+outcome: "Front-desk invoicing tool that saves ~5 hours a week of handwritten receipts and keeps working offline. A real client project, built in 2024 and rebuilt in 2026."
 logo: "/images/projects/mafi-fashion.png"
 links: {}
 ---
 
 ### Overview
-Back in 2024, Michael Anthony's Fashion Inc. was losing hours every week handwriting physical delivery receipts and client invoices. The tool actually started out quite small—just a straightforward HTML, CSS, and vanilla JavaScript setup paired with SQLite so the front-desk staff could save their billing progress locally without touching anything complicated.
 
-As their order volume grew, they reached out again in 2026 asking to revamp the tool for a smoother day-to-day workflow. I upgraded the architecture with a lightweight Node.js and Express backend, giving them a much faster, desktop-like interface with instant calculation breakdowns, reliable local backups, and zero subscription overhead.
+A shop's front desk needed to stop handwriting invoices and delivery receipts. The internet was unreliable and they didn't want a subscription, so the tool had to run offline at no monthly cost. I built a receipt tool that calculates totals, fills BIR-aligned templates and prints to thermal or dot-matrix printers from a local database. It saves about 5 hours a week and removed math errors from receipts.
 
-### Key Features
-- **Progressive Evolution**: Started as a lightweight HTML/CSS/JS tool with local SQLite storage in 2024, then overhauled in 2026 with a dedicated Node.js/Express service for a snappier front-desk experience.
-- **Instant DR & Receipt Generation**: Pre-formatted templates aligned with BIR invoice and delivery receipt layouts, eliminating handwritten math mistakes.
-- **Zero-Setup SQLite Backups**: Offline-first local database storage so receipt records and customer histories stay accessible even when the shop's internet cuts out.
-- **Hardware-Ready Print Layouts**: Custom CSS print media stylesheets fine-tuned for thermal rolls and dot-matrix continuous-feed office printers.
+- **Role:** Sole developer
+- **Timeline:** Built in 2024, rebuilt in 2026
+- **Built for:** Front-desk staff at a garment business · real client project
+- **Impact:** About 5 hours a week saved
+
+### The Challenge
+MAFI's front desk was handwriting every delivery receipt and invoice, losing hours each week and risking math mistakes on documents that had to match BIR layouts. The shop's internet wasn't reliable, so the tool had to work offline, and they didn't want another subscription.
+
+### Solution & Architecture
+**Data flow:** Front-desk browser → Node.js / Express (2026) → local SQLite file → printer.
+
+- **2024 version:** Plain HTML, CSS and JavaScript with local SQLite storage, so staff could save billing progress without anything complicated.
+- **2026 rebuild:** As order volume grew, MAFI asked for a smoother workflow. I added a lightweight Node.js and Express backend for a faster, desktop-like interface with instant totals.
+- **Receipt templates:** Pre-formatted to match BIR invoice and delivery receipt layouts, with all math done by the system.
+- **Offline-first storage:** Records and customer history stay on a local SQLite database with simple backups, so work continues when the internet drops.
+- **Print layouts:** CSS print stylesheets tuned for thermal rolls and dot-matrix continuous-feed printers.
+
+### Results
+- **~5 hours a week** of handwriting saved at the front desk.
+- **0 handwritten math errors**, since every total is calculated.
+- **2 printer types** supported: thermal and dot-matrix.
+- **₱0 subscription cost**, and it keeps working offline.
+
+### Key Takeaways
+- Starting small was right. The simple 2024 version earned the trust that led to the 2026 rebuild.
+- Offline-first isn't an edge case for small shops in the Philippines. It's the default.

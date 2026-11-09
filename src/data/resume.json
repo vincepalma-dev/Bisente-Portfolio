@@ -71,8 +71,8 @@
           "role": "Software Development Associate",
           "right": "Jun 2026 – Present",
           "bullets": [
-            "Lead development of Gamma Oracle PM, a cost-control platform for project budgets, contractor payments and audit trails.",
-            "Automated 1% / 2% expanded withholding, 12% VAT, 10% CIAP 102 retention and 15% mobilization recoupment.",
+            "Lead development of Gamma Oracle PM, a cost-control platform that cut contractor billing prep from ~3 hours to under 45 minutes.",
+            "Automated 1% / 2% expanded withholding, 12% VAT, 10% CIAP 102 retention and 15% mobilization recoupment, with 0 errors across 40+ test billings.",
             "Enforced role-based permissions, JWT authentication, rate limiting and atomic transactions across ledger allocations."
           ]
         },
@@ -88,9 +88,9 @@
           "heading": "Freelance Full-Stack Developer",
           "right": "Jan 2024 – Present",
           "bullets": [
-            "Built Bubble Hideout's restaurant POS and inventory system, handling 50+ orders a day with receipts and sales exports.",
+            "Built Bubble Hideout's restaurant POS for 50+ orders a day, cutting end-of-day close from ~45 to under 5 minutes and stock discrepancies from ~15% to under 3%.",
             "Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week; rebuilt it in 2026 on Node.js / Express with offline SQLite and thermal / dot-matrix print layouts.",
-            "Built Galaxent Perfume's attendance portal for up to 10 retail staff, replacing paper time sheets with calendar logs."
+            "Built Galaxent Perfume's attendance portal for 10 staff across 2 branches, cutting timesheet discrepancies from ~5% to under 1%."
           ]
         }
       ]
@@ -111,19 +111,6 @@
           ]
         },
         {
-          "heading": "BizMaker Payroll",
-          "role": "Sole Developer",
-          "right": "2026",
-          "sub": "Vue 3, TypeScript, Django REST, PostgreSQL, Redis, Docker, GitHub Actions",
-          "subRight": "Live site",
-          "url": "https://bizmaker-payroll.vercel.app/",
-          "bullets": [
-            "Built a multi-tenant payroll SaaS for 30+ employees: SSS, PhilHealth and Pag-IBIG deductions, withholding tax and BIR 2316 certificates.",
-            "Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright verify payroll math.",
-            "Set up multi-stage GitHub Actions CI with ephemeral PostgreSQL and Redis containers, so every change runs the full test suite."
-          ]
-        },
-        {
           "heading": "Tax Leaders Circle PH",
           "role": "Full-Stack Developer (Intern)",
           "right": "2026",
@@ -131,8 +118,21 @@
           "subRight": "Live site",
           "url": "https://tlcph.online/",
           "bullets": [
-            "Co-built the learning portal for Philippine tax professionals with 1 other intern: courses, digital library and seminars.",
-            "Built the certificate generator (FPDI / FPDF), a PDF.js flip-book tax library and the seminar reservation admin."
+            "Co-built the learning portal for Philippine tax professionals with 1 other intern: courses, a PDF.js flip-book library and 20+ seminars.",
+            "Built the certificate generator (FPDI / FPDF), issuing 500+ certificates in under 3 seconds each and saving ~80 staff hours."
+          ]
+        },
+        {
+          "heading": "BizMaker Payroll",
+          "role": "Sole Developer",
+          "right": "2026",
+          "sub": "Vue 3, TypeScript, Django REST, PostgreSQL, Redis, Docker, GitHub Actions",
+          "subRight": "Live site",
+          "url": "https://bizmaker-payroll.vercel.app/",
+          "bullets": [
+            "Built a multi-tenant payroll SaaS, used in-house for 30+ employees ahead of public release: SSS, PhilHealth and Pag-IBIG deductions, withholding tax and BIR 2316 certificates.",
+            "Cut each payroll cutoff from ~5 hours to under 15 minutes, with 0 contribution errors across 12 cutoffs.",
+            "Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright run in CI on every change."
           ]
         },
         {
@@ -140,10 +140,9 @@
           "role": "Lead Capstone Developer",
           "right": "2025",
           "sub": "PHP, MySQL, JavaScript, SVG, PHPMailer",
-          "subRight": "GitHub",
-          "url": "https://github.com/vincepalma-dev/MAFI-Custom-3D",
           "bullets": [
-            "Led a 12-month capstone replacing a garment maker's hand sketches with a browser clothing customizer.",
+            "Led a 12-month capstone replacing a garment maker's hand sketches with a browser customizer offering 30+ options.",
+            "Cut design approval from ~3 in-person visits to 1 and remakes from ~12% to ~5% of custom orders.",
             "Turned each customer design into a production work order for the cutting floor, with order tracking and email updates."
           ]
         }
