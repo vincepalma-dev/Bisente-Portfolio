@@ -17,7 +17,7 @@ const projects = allProjects.filter((p) => !p.data.event);
 const byId = Object.fromEntries(allProjects.map((p) => [p.id, p]));
 
 // Selected work: live sites with a landing-page screenshot, in this order
-const SELECTED = ['bizmaker-erp', 'omma-platform', 'tlcph'];
+const SELECTED = ['tlcph', 'omma-platform', 'bizmaker-erp'];
 const selected = SELECTED.map((id) => byId[id]).filter((p) => p?.data.shot && p.data.links.live);
 
 const more = projects
@@ -134,7 +134,6 @@ const year = (d: Date) => d.getUTCFullYear();
               </a>
 
               <div class="feature-body">
-                <p class="feature-kicker">{year(p.data.date)} · {p.data.client}</p>
                 <h3 class="feature-title"><a href={`/projects/${p.id}/`}>{p.data.title}</a></h3>
                 <p class="feature-desc">{p.data.outcome}</p>
                 <ul class="feature-stack" aria-label="Built with">
@@ -174,7 +173,6 @@ const year = (d: Date) => d.getUTCFullYear();
               <span class="card-year">{year(p.data.date)}</span>
             </div>
             <h3 class="card-title"><a href={`/projects/${p.id}/`} class="card-link">{p.data.title}</a></h3>
-            {p.data.client && <p class="card-client">{p.data.client}</p>}
             <p class="card-desc">{p.data.outcome}</p>
             <ul class="card-stack" aria-label="Built with">
               {p.data.skills.slice(0, 4).map((s) => <li>{s}</li>)}
@@ -642,13 +640,6 @@ const year = (d: Date) => d.getUTCFullYear();
   padding-left: var(--space-6);
 }
 
-.feature-kicker {
-  margin: 0 0 var(--space-1);
-  color: var(--stage-accent);
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-}
-
 .feature-title {
   margin: 0 0 var(--space-4);
   font-size: clamp(1.5rem, 2.6vw, 2rem);
@@ -839,13 +830,6 @@ const year = (d: Date) => d.getUTCFullYear();
 
 .card:has(.card-link:focus-visible) {
   box-shadow: var(--focus-ring);
-}
-
-.card-client {
-  margin: 0 0 var(--space-3);
-  color: var(--ink-3);
-  font-size: var(--text-xs);
-  font-weight: 600;
 }
 
 .card-desc {

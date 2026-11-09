@@ -36,8 +36,6 @@ const year = new Date(project.data.date).getUTCFullYear();
 
       <div class="meta-row">
         <span class="year-badge">{project.data.event ? `Hackathon · ${year}` : year}</span>
-        {project.data.client && <span class="client-badge">{project.data.client}</span>}
-        {project.data.role && <span class="role-badge">{project.data.role}</span>}
       </div>
 
       <h1>{project.data.title}</h1>
@@ -201,26 +199,6 @@ const year = new Date(project.data.date).getUTCFullYear();
 .year-badge {
   background: var(--projects);
   color: #fff;
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.client-badge {
-  background: var(--surface-2);
-  color: var(--ink);
-  border: 1px solid var(--rail);
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
-.role-badge {
-  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
-  color: var(--accent-ink);
-  border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
   font-size: 0.85rem;
