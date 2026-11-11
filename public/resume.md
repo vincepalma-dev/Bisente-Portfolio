@@ -13,7 +13,7 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ## TECHNICAL SKILLS
 
-- **Programming:** TypeScript, JavaScript, Python, PHP, SQL, HTML, CSS, Bash
+- **Languages:** TypeScript, JavaScript, Python, PHP, SQL, HTML, CSS, Bash
 - **Frontend:** React 19, Next.js, Vue 3 (Pinia), Astro, Three.js / React Three Fiber, Tailwind CSS
 - **Backend & APIs:** Laravel 11, Django REST, FastAPI, Node.js / Express, Socket.io; Xendit and Maya payments, Brevo email
 - **Databases & DevOps:** PostgreSQL, Supabase, MySQL, Redis, SQLite, Prisma; Docker, GitHub Actions, Vercel, Render
