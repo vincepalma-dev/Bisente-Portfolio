@@ -35,7 +35,7 @@ const year = new Date(project.data.date).getUTCFullYear();
       )}
 
       <div class="meta-row">
-        <span class="year-badge">{project.data.event ? `Hackathon · ${year}` : year}</span>
+        <span class="year-badge">{project.data.event ? `Hackathon · ${year}` : project.data.ongoing ? `${year} – Present` : year}</span>
       </div>
 
       <h1>{project.data.title}</h1>
@@ -74,8 +74,8 @@ const year = new Date(project.data.date).getUTCFullYear();
         </div>
       )}
 
-      {project.data.shot && project.data.links?.live && (
-        <a href={project.data.links.live} target="_blank" rel="noopener noreferrer" class="project-shot" aria-label={`Visit the ${project.data.title} live site (opens in a new tab)`}>
+      {project.data.shot && (project.data.links?.live || project.data.links?.repo) && (
+        <a href={project.data.links.live ?? project.data.links.repo} target="_blank" rel="noopener noreferrer" class="project-shot" aria-label={project.data.links.live ? `Visit the ${project.data.title} live site (opens in a new tab)` : `${project.data.title} source code on GitHub (opens in a new tab)`}>
           <img src={project.data.shot} alt={`${project.data.title} landing page`} width="1440" height="900" decoding="async" />
         </a>
       )}

@@ -45,17 +45,17 @@ test('Zones are years present in the data, each as wide as its busiest lane', ()
   assert.equal(j.slots, 10);
 });
 
-test('Same-year projects follow CHRONO_ORDER: Invoicing < Galaxent < Bubble POS, MAFI 3D < Jarvis, TLC < CND < BizMaker < OMMA', () => {
+test('Same-year projects follow CHRONO_ORDER: Invoicing < Galaxent < Bubble POS, MAFI 3D < JULI, TLC < CND < BizMaker < OMMA', () => {
   const j = buildJourney([
     project('gamma-pm', y2026), project('omma-platform', y2026), project('bizmaker-erp', y2026),
     project('cnd-upraze', y2026), project('tlcph', y2026),
-    project('jarvis-ai', y2025), project('mafi-custom-3d', y2025),
+    project('juli', y2025), project('mafi-custom-3d', y2025),
     project('bubble-pos', y2024), project('galaxent-attendance', y2024), project('mafi-receipt', y2024),
   ]);
   const keys = j.stops.map((s) => s.key.replace('projects/', ''));
   assert.deepEqual(keys, [
     'mafi-receipt', 'galaxent-attendance', 'bubble-pos',
-    'mafi-custom-3d', 'jarvis-ai',
+    'mafi-custom-3d', 'juli',
     'tlcph', 'cnd-upraze', 'bizmaker-erp', 'omma-platform', 'gamma-pm',
   ]);
   for (let i = 1; i < j.stops.length; i++)

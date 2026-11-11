@@ -56,9 +56,9 @@ const CHRONO_ORDER: Record<string, number> = {
   'projects/mafi-receipt': 10,
   'projects/galaxent-attendance': 20,
   'projects/bubble-pos': 30,
-  // 2025: MAFI 3D Custom Clothing came before Jarvis.AI
+  // 2025: MAFI 3D Custom Clothing came before JULI (started as Jarvis.AI)
   'projects/mafi-custom-3d': 100,
-  'projects/jarvis-ai': 110,
+  'projects/juli': 110,
   // 2026: Tax Leader -> CND Upraze -> BizMaker ERP -> OMMA -> Gamma PM -> eGovPH
   'projects/tlcph': 200,
   'projects/cnd-upraze': 210,
@@ -88,7 +88,7 @@ const WAYPOINT_LABELS: Record<string, string> = {
   'projects/galaxent-attendance': 'Galaxent Portal',
   'projects/bubble-pos': 'Bubble POS',
   'projects/mafi-custom-3d': 'MAFI 3D Clothing',
-  'projects/jarvis-ai': 'Jarvis.AI',
+  'projects/juli': 'JULI',
   'projects/tlcph': 'Tax Leaders Circle',
   'projects/cnd-upraze': 'CND Upraze',
   'projects/bizmaker-erp': 'BizMaker ERP',

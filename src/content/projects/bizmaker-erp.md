@@ -1,6 +1,7 @@
 ---
 title: "BizMaker HRIS ERP"
 date: "2026"
+ongoing: true
 featured: true
 client: "BizMaker Consultancy Inc."
 role: "Sole Developer & Architect (SaaS)"

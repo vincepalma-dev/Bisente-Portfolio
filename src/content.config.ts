@@ -24,6 +24,8 @@ const projects = defineCollection({
     shot: z.string().optional(),
     // Events like hackathons: kept on the route map, left out of the project grid and counts
     event: z.boolean().default(false),
+    // Still in development: the year shows as "<year> – Present"
+    ongoing: z.boolean().default(false),
     links: z.object({ live: z.string().url().optional(), repo: z.string().url().optional(), demo: z.string().url().optional() }).default({}),
   }),
 });

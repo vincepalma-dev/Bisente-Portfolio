@@ -1,6 +1,7 @@
 ---
 title: "Gamma Oracle PM"
 date: "2026"
+ongoing: true
 featured: true
 client: "AAA and Co., CPAs (for Gamma Oracle Dimension Inc.)"
 role: "Software Development Associate (Employed Jun 1, 2026 – Present)"

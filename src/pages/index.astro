@@ -16,9 +16,9 @@ const [allProjects, credentials] = await Promise.all([
 const projects = allProjects.filter((p) => !p.data.event);
 const byId = Object.fromEntries(allProjects.map((p) => [p.id, p]));
 
-// Selected work: live sites with a landing-page screenshot, in this order
-const SELECTED = ['tlcph', 'omma-platform', 'bizmaker-erp'];
-const selected = SELECTED.map((id) => byId[id]).filter((p) => p?.data.shot && p.data.links.live);
+// Selected work: projects with a screenshot and a live site or public code, in this order
+const SELECTED = ['tlcph', 'omma-platform', 'juli'];
+const selected = SELECTED.map((id) => byId[id]).filter((p) => p?.data.shot && (p.data.links.live || p.data.links.repo));
 
 const more = projects
   .filter((p) => !selected.includes(p))
@@ -119,16 +119,17 @@ const year = (d: Date) => d.getUTCFullYear();
       <div class="container">
         <div class="section-head">
           <p class="section-kicker">Selected work</p>
-          <h2 id="work-heading" class="section-title">Live in production, used by real clients</h2>
+          <h2 id="work-heading" class="section-title">Live in production, used by real clients, and open source</h2>
         </div>
 
         <ol class="features">
           {selected.map((p, i) => (
             <li class:list={['feature', { 'feature-flip': i % 2 === 1 }]}>
-              <a class="feature-shot" href={p.data.links.live} target="_blank" rel="noopener noreferrer" aria-label={`Visit the ${p.data.title} live site (opens in a new tab)`}>
+              <a class="feature-shot" href={p.data.links.live ?? p.data.links.repo} target="_blank" rel="noopener noreferrer" aria-label={p.data.links.live ? `Visit the ${p.data.title} live site (opens in a new tab)` : `${p.data.title} source code on GitHub (opens in a new tab)`}>
                 <span class="browser-bar" aria-hidden="true">
                   <span class="browser-dots"><i></i><i></i><i></i></span>
-                  <span class="browser-url">{host(p.data.links.live!)}</span>
+                  {/* Apps without a live site run on the user's own machine */}
+                  <span class="browser-url">{p.data.links.live ? host(p.data.links.live) : '127.0.0.1'}</span>
                 </span>
                 <img src={p.data.shot} alt="" width="1440" height="900" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
               </a>
@@ -140,12 +141,12 @@ const year = (d: Date) => d.getUTCFullYear();
                   {p.data.skills.slice(0, 6).map((s) => <li>{s}</li>)}
                 </ul>
                 <div class="feature-actions">
-                  <a href={p.data.links.live} target="_blank" rel="noopener noreferrer" class="btn btn-stage">
-                    Visit live site
+                  <a href={p.data.links.live ?? p.data.links.repo} target="_blank" rel="noopener noreferrer" class="btn btn-stage">
+                    {p.data.links.live ? 'Visit live site' : 'View code'}
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                   </a>
                   <a href={`/projects/${p.id}/`} class="stage-link">Case study <span aria-hidden="true">→</span></a>
-                  {p.data.links.repo && (
+                  {p.data.links.live && p.data.links.repo && (
                     <a href={p.data.links.repo} target="_blank" rel="noopener noreferrer" class="stage-link">Code <span aria-hidden="true">↗</span></a>
                   )}
                 </div>
