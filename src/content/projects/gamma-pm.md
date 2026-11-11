@@ -7,14 +7,14 @@ client: "AAA and Co., CPAs (for Gamma Oracle Dimension Inc.)"
 role: "Software Development Associate (Employed Jun 1, 2026 – Present)"
 skills: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Supabase", "TailwindCSS"]
 related: []
-outcome: "Construction cost-control platform that cut contractor billing prep from ~3 hours to under 45 minutes, with 0 deduction errors in 40+ test billings. Private software I lead at my current job."
+outcome: "Construction cost-control platform that cut contractor billing prep time by 75%, with 0 deduction errors in 40+ test billings. Private software I lead at my current job."
 logo: "/images/projects/aaa-cpas.png"
 links: {}
 ---
 
 ### Overview
 
-Construction projects need contractor billings that are accurate and traceable to the peso. Each billing stacks withholding tax, VAT, retention and mobilization recoupment, and doing that by hand invites errors that auditors catch later. I'm leading development of a cost-control platform that applies those rules automatically and posts each result to the ledger in one atomic transaction. Billing prep dropped from about 3 hours to under 45 minutes, with 0 errors across 40+ test billings.
+Construction projects need contractor billings that are accurate and traceable to the peso. Each billing stacks withholding tax, VAT, retention and mobilization recoupment, and doing that by hand invites errors that auditors catch later. I'm leading development of a cost-control platform that applies those rules automatically and posts each result to the ledger in one atomic transaction. Billing prep time dropped by 75%, with 0 errors across 40+ test billings.
 
 - **Role:** Lead developer: architecture, API, ledger logic and security
 - **Timeline:** June 2026 to present
@@ -39,7 +39,7 @@ Construction projects bill contractors in stages, and each billing carries sever
 - **5 deduction rates automated** on every contractor billing.
 - **Every ledger allocation** is atomic and recorded in the audit trail.
 - **4 security layers** on the API: role-based access, JWT auth, rate limiting and security headers.
-- **Billing prep cut from ~3 hours to under 45 minutes** per contractor progress billing (~75%).
+- **75% less prep time** per contractor progress billing.
 - **0 deduction errors** across 40+ test billings, checked against the CPA team's manual computations.
 - **12 projects** loaded and reconciled during acceptance testing.
 

@@ -18,7 +18,7 @@ A retail business needed to track staff attendance across branches without paper
 - **Role:** Sole developer: database, PHP backend and admin screens
 - **Timeline:** 2024
 - **Built for:** Retail staff and branch administrators · real client project
-- **Impact:** About 4 hours a month saved on attendance summaries
+- **Impact:** Timesheet discrepancies cut by 80%
 
 ### The Challenge
 Galaxent Perfume tracked staff attendance and shifts across its retail branches on paper time sheets. Seeing who was late, absent or working overtime meant going through sheets by hand, and the monthly records were hard to keep in order.
@@ -36,7 +36,6 @@ Galaxent Perfume tracked staff attendance and shifts across its retail branches 
 - **1 calendar view** shows a full month of attendance per person.
 - **2 retail branches** on one attendance system.
 - **Timesheet discrepancies cut from ~5% of entries to under 1%**, since every punch carries a server timestamp.
-- **~4 hours a month** saved preparing attendance summaries.
 
 ### Key Takeaways
 - For a small team, the win was not fancy features but having one trustworthy record everyone agreed on.

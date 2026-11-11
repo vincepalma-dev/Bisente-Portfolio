@@ -44,5 +44,5 @@ The constraint was time. I was the only developer and was interning at the same 
 - **13 data models** across a **22-table** PostgreSQL schema.
 
 ### Key Takeaways
-- When time is the tightest constraint, automation is worth setting up first. Every release after that cost no extra hours.
+- When time is the tightest constraint, automation is worth setting up first. Every release after that ran on its own.
 - Containerizing early paid off: the same Docker image runs in CI and in production.
