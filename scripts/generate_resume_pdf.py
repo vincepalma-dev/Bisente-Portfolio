@@ -94,7 +94,7 @@ def create_resume(output_path):
     )
 
     usable = A4[0] - 2 * 0.5 * inch - 12  # minus the frame's 6pt padding on each side
-    right_w = 1.55 * inch
+    right_w = 1.8 * inch  # fits the longest site address on one line
 
     def link(label, url, underline=True):
         text = f"<u>{escape(label)}</u>" if underline else escape(label)

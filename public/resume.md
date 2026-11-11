@@ -18,7 +18,7 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 - **Backend & APIs:** Laravel 11, Django REST, FastAPI, Node.js / Express, Socket.io; Xendit and Maya payments, Brevo email
 - **Databases & DevOps:** PostgreSQL, Supabase, MySQL, Redis, SQLite, Prisma; Docker, GitHub Actions, Vercel, Render
 - **Testing & Security:** Pest / PHPUnit, Pytest, Vitest, Playwright, Postman / Newman; CodeQL, Gitleaks, Cisco network defense
-- **AI & ML:** Claude, Gemini and Groq APIs; AutoGen multi-agent apps; PyTorch, CUDA, Unsloth fine-tuning, Miniconda
+- **AI & ML:** Claude, Gemini and Groq APIs; multi-agent apps (AutoGen, then a custom engine with Ollama local models and MCP tools); PyTorch, CUDA, Unsloth fine-tuning, Miniconda
 - **Spoken Languages:** English, Filipino
 
 ---
@@ -27,8 +27,8 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### AAA and Co., CPAs | Software Development Associate
 *Jun 2026 – Present*
-- Lead development of Gamma Oracle PM, a cost-control platform that cut contractor billing prep from ~3 hours to under 45 minutes.
-- Automated 1% / 2% expanded withholding, 12% VAT, 10% CIAP 102 retention and 15% mobilization recoupment, with 0 errors across 40+ test billings.
+- Cut contractor billing prep by 75% (~3 hours to under 45 minutes) by leading development of Gamma Oracle PM, a construction cost-control platform.
+- Reached 100% deduction accuracy across 40+ test billings by automating 1% / 2% expanded withholding, 12% VAT, 10% CIAP 102 retention and 15% mobilization recoupment.
 - Enforced role-based permissions, JWT authentication, rate limiting and atomic transactions across ledger allocations.
 
 ### Gamma Oracle Dimension Inc. | Software Engineering Intern
@@ -37,9 +37,9 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### Freelance Full-Stack Developer
 *Jan 2024 – Present*
-- Built Bubble Hideout's restaurant POS for 50+ orders a day, cutting end-of-day close from ~45 to under 5 minutes and stock discrepancies from ~15% to under 3%.
-- Automated MAFI's handwritten invoices and delivery receipts, saving the front desk ~5 hours a week; rebuilt it in 2026 on Node.js / Express with offline SQLite and thermal / dot-matrix print layouts.
-- Built Galaxent Perfume's attendance portal for 10 staff across 2 branches, cutting timesheet discrepancies from ~5% to under 1%.
+- Cut end-of-day closing by 89% (~45 to under 5 minutes) and stock discrepancies by 80% by building Bubble Hideout's POS and inventory system for 50+ orders a day.
+- Saved MAFI's front desk ~5 hours a week by automating handwritten invoices and delivery receipts; rebuilt it in 2026 on Node.js / Express with offline SQLite and thermal / dot-matrix printing.
+- Cut timesheet discrepancies by 80% (~5% to under 1%) for 10 staff across 2 branches by replacing Galaxent Perfume's paper time sheets with a timestamped attendance portal.
 
 ---
 
@@ -47,24 +47,24 @@ Las Piñas City, Philippines | +63 915 805 7972 | markvincentpalma01@gmail.com
 
 ### [STI OMMA Platform](https://omma-art.vercel.app/) | Full-Stack Engineer
 *2026* | *Next.js, TypeScript, PostgreSQL (Prisma), Supabase Storage, Redis, Socket.io, Xendit*
-- Built an art-commission marketplace for STI artists with Xendit escrow, a 10% fee with payout splits and live chat.
-- Designed a 20-model PostgreSQL schema and 91 API routes, covered by 110 test files; passed all 36 alpha test cases.
+- Built an art-commission marketplace for STI artists with Xendit escrow, live chat and a 10% platform fee split automatically on every payout.
+- Passed 100% of 36 alpha test cases on a 20-model PostgreSQL schema and 91 API routes, covered by 110 test files.
 
 ### [Tax Leaders Circle PH](https://tlcph.online/) | Full-Stack Developer (Intern)
 *2026* | *Laravel, Vue.js, PHP, MySQL, PDF.js, FPDI / FPDF*
-- Co-built the learning portal for Philippine tax professionals with 1 other intern: courses, a PDF.js flip-book library and 20+ seminars.
-- Built the certificate generator (FPDI / FPDF), issuing 500+ certificates in under 3 seconds each and saving ~80 staff hours.
+- Co-built a learning portal for Philippine tax professionals with 1 other intern in 4 months: courses, a PDF.js flip-book library and 20+ seminars.
+- Saved ~80 staff hours by building the certificate generator (FPDI / FPDF), which has issued 500+ certificates in under 3 seconds each.
 
 ### [BizMaker Payroll](https://bizmaker-payroll.vercel.app/) | Sole Developer
 *2026* | *Vue 3, TypeScript, Django REST, PostgreSQL, Redis, Docker, GitHub Actions*
-- Built a multi-tenant payroll SaaS, used in-house for 30+ employees ahead of public release: SSS, PhilHealth and Pag-IBIG deductions, withholding tax and BIR 2316 certificates.
-- Cut each payroll cutoff from ~5 hours to under 15 minutes, with 0 contribution errors across 12 cutoffs.
+- Cut each payroll cutoff by 95% (~5 hours to under 15 minutes) with 0 contribution errors across 12 cutoffs, for 30+ employees in-house ahead of public release.
+- Automated SSS, PhilHealth and Pag-IBIG deductions, withholding tax and BIR 2316 certificates in a multi-tenant Django / Vue platform with 53 data models.
 - Synced ZKTeco biometric attendance with missed-punch backfill; Pytest, Vitest and Playwright run in CI on every change.
 
 ### MAFI 3D Custom Clothing | Lead Capstone Developer
 *2025* | *PHP, MySQL, JavaScript, SVG, PHPMailer*
 - Led a 12-month capstone replacing a garment maker's hand sketches with a browser customizer offering 30+ options.
-- Cut design approval from ~3 in-person visits to 1 and remakes from ~12% to ~5% of custom orders.
+- Cut design approval visits by 67% (~3 to 1) and remakes by 58% (~12% to ~5% of custom orders).
 - Turned each customer design into a production work order for the cutting floor, with order tracking and email updates.
 
 ---
