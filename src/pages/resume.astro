@@ -344,5 +344,23 @@ body {
     box-shadow: none;
   }
 
+  /* Never strand a section heading at a page bottom, and don't split an entry or skill list */
+  .section-title {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+
+  /* Chrome ignores break-after: avoid here; reserving space under the heading moves it to the next page instead */
+  .section-title::after {
+    content: '';
+    display: block;
+    height: 4.5em;
+    margin-bottom: -4.5em;
+  }
+
+  .entry,
+  .lines {
+    break-inside: avoid;
+  }
 }
 </style>
